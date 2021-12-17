@@ -6,6 +6,7 @@ import theme, { globalStyles } from 'theme'
 import { Footer, Navigation } from 'components'
 
 import Dictionary from './Dictionary/Dictionary'
+import NotFound from './NotFound/NotFound'
 
 const Pages = () => {
   const darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -22,6 +23,7 @@ const Pages = () => {
 
       <Routes>
         <Route path="/" element={<Dictionary />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
 
       <Footer />

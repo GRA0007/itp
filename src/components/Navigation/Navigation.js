@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
 import {
-  AnteLipuIcon,
+  LipuAnteIcon,
+  LipuNimiIcon,
   KamaSonaIcon,
   SitelenPonaIcon,
   TokiPonaIcon,
@@ -51,8 +52,13 @@ const Navigation = () => {
           label="Learn"
         />
         <NavItem
-          to="/antelipu"
-          icon={<AnteLipuIcon />}
+          to="/lipunimi"
+          icon={<LipuNimiIcon />}
+          label="Reference"
+        />
+        <NavItem
+          to="/lipuante"
+          icon={<LipuAnteIcon />}
           label="Resources"
         />
 

@@ -1,4 +1,6 @@
 export { default as TokiPonaIcon } from './TokiPona'
 export { default as SitelenPonaIcon } from './SitelenPona'
 export { default as KamaSonaIcon } from './KamaSona'
-export { default as AnteLipuIcon } from './AnteLipu'
+export { default as LipuNimiIcon } from './LipuNimi'
+export { default as LipuAnteIcon } from './LipuAnte'
+export { default as KalamaIcon } from './Kalama'
