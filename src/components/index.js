@@ -7,3 +7,5 @@ export { default as SelectField } from './SelectField/SelectField'
 export { default as Button } from './Button/Button'
 
 export { default as Definition } from './Definition/Definition'
+
+export { default as Highlight } from './Highlight/Highlight'

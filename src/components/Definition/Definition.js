@@ -1,4 +1,4 @@
-import { Button } from 'components'
+import { Button, Highlight } from 'components'
 import { KalamaIcon } from 'icons'
 import { Fragment } from 'react'
 
@@ -16,10 +16,11 @@ import {
 const Definition = ({
   word,
   definitions = [],
+  search,
 }) => (
   <Wrapper>
     <Header>
-      <Word>{Array.isArray(word) ? word.join(', ') : word}</Word>
+      <Word><Highlight text={Array.isArray(word) ? word.join(', ') : word} search={search} /></Word>
       <ListenButton
         title="Listen"
         onClick={() => console.log('listen')}
@@ -34,7 +35,7 @@ const Definition = ({
       {definitions.map(def => (
         <Fragment key={def.definition}>
           <Category>{def.category}</Category>
-          <Def>{def.definition}</Def>
+          <Def><Highlight text={def.definition} search={search} /></Def>
           {def.example && <Example>"{def.example}"</Example>}
         </Fragment>
       ))}
