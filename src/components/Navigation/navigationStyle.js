@@ -39,6 +39,7 @@ export const Items = styled.div`
     right: 0;
     background: inherit;
     gap: .4em;
+    z-index: 100;
 
     .open & {
       display: flex;

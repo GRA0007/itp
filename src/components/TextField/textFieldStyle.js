@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   &.labelled {
     margin: .8em 0;
   }
+  flex: 1;
 `
 
 export const Label = styled.label`
@@ -25,7 +26,7 @@ export const Input = styled.input`
   width: 100%;
 
   &:disabled {
-    --border-color: ${props => props.theme.theme === 'light' ? props.theme.lightGray : props.theme.darkGray};
+    --border-color: ${props => props.theme.weakGray};
     color: var(--border-color);
   }
 `

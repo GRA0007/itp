@@ -59,5 +59,5 @@ export const Def = styled.span`
 export const Example = styled.span`
   display: block;
   margin-left: 2em;
-  color: ${props => props.theme.theme === 'light' ? props.theme.darkGray : props.theme.lightGray};
+  color: ${props => props.theme.strongGray};
 `

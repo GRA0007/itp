@@ -21,14 +21,14 @@ const Definition = ({
   <Wrapper>
     <Header>
       <Word><Highlight text={Array.isArray(word) ? word.join(', ') : word} search={search} /></Word>
-      <ListenButton
+      {/* <ListenButton
         title="Listen"
         onClick={() => console.log('listen')}
       >
         <KalamaIcon />
-      </ListenButton>
+      </ListenButton> */}
       <div style={{ flex: 1 }} />
-      <Button secondary>Go to glyph</Button>
+      {/* <Button secondary>Info</Button> */}
     </Header>
 
     <Content>

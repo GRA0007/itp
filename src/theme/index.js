@@ -22,6 +22,8 @@ const theme = isDark => ({
   primary: COLORS.yellow,
   secondary: COLORS.blue,
   surface: COLORS.purple,
+  strongGray: COLORS.darkGray,
+  weakGray: COLORS.lightGray,
 
   ...isDark && { // Dark
     theme: 'dark',
@@ -30,6 +32,8 @@ const theme = isDark => ({
     primary: COLORS.blue,
     secondary: COLORS.yellow,
     surface: COLORS.yellow,
+    strongGray: COLORS.lightGray,
+    weakGray: COLORS.darkGray,
   },
 })
 

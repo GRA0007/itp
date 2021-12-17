@@ -1,8 +1,12 @@
 import { useMemo, useState } from 'react'
 
 import {
+  Button,
   Definition,
   Main,
+  OptionsPanel,
+  SearchWrapper,
+  SwitchField,
   TextField,
 } from 'components'
 
@@ -985,16 +989,47 @@ const has = (a, b) => {
 
 const Dictionary = () => {
   const [q, setQ] = useState('')
+  const [showOptions, setShowOptions] = useState(false)
+  const [options, setOptions] = useState({
+    showExamples: true,
+    showUnofficialWords: false,
+  })
 
   return (
     <Main>
       <Wrapper>
-        <TextField
-          placeholder="Search..."
-          value={q}
-          onChange={e => setQ(e.currentTarget.value)}
-          type="search"
-        />
+        <SearchWrapper>
+          <TextField
+            placeholder="Search..."
+            value={q}
+            onChange={e => setQ(e.currentTarget.value)}
+            type="search"
+            autoFocus
+          />
+          <Button
+            secondary={!showOptions}
+            onClick={() => setShowOptions(!showOptions)}
+            inline
+          >Options</Button>
+        </SearchWrapper>
+
+        {showOptions && (
+          <OptionsPanel>
+            <SwitchField
+              label="Show examples"
+              id="show-examples"
+              value={options.showExamples}
+              onChange={value => setOptions({ ...options, showExamples: value })}
+            />
+            <SwitchField
+              label="Show unofficial words"
+              id="show-unofficial"
+              value={options.showUnofficialWords}
+              onChange={value => setOptions({ ...options, showUnofficialWords: value })}
+              disabled
+            />
+          </OptionsPanel>
+        )}
 
         {useMemo(() =>
           list.filter(d => {
@@ -1004,9 +1039,14 @@ const Dictionary = () => {
             }
             return has(d.word, q) || d.definitions.some(def => has(def.definition, q))
           }).map(d =>
-            <Definition key={d.word} search={q} {...d} />
+            <Definition
+              key={d.word}
+              search={q}
+              word={d.word}
+              definitions={options.showExamples ? d.definitions : d.definitions.map(x => ({ ...x, example: null }))}
+            />
           ),
-          [q],
+          [q, options],
         )}
       </Wrapper>
     </Main>

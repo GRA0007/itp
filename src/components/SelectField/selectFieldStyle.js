@@ -35,7 +35,7 @@ export const Select = styled.select`
   }
 
   &:disabled {
-    --border-color: ${props => props.theme.theme === 'light' ? props.theme.lightGray : props.theme.darkGray};
+    --border-color: ${props => props.theme.weakGray};
     color: var(--border-color);
   }
 `

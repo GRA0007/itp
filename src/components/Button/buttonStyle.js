@@ -15,7 +15,7 @@ export const Wrapper = styled.button`
   font-weight: 500;
   cursor: pointer;
   transform: translateY(-.2em);
-  transition: transform .15s, box-shadow .15s;
+  transition: transform .15s, box-shadow .15s, background .15s, color .15s, border .15s;
 
   &:active {
     transform: translateY(0);
@@ -26,6 +26,16 @@ export const Wrapper = styled.button`
     --border-color: ${props.theme.secondary};
     color: ${props.theme.secondary};
     background: ${props.theme.background};
+  `}
+
+  ${props => props.inline && `
+    transform: translateY(0);
+    padding: .3em 1.2em;
+    margin-bottom: .2em;
+
+    &:active {
+      transform: translateY(.2em);
+    }
   `}
 
   &:disabled {

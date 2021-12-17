@@ -9,6 +9,8 @@ const Highlight = ({
   const [result, setResult] = useState(text)
 
   useEffect(() => {
+    if (!search || search === '') return setResult(text)
+    
     setResult(text.split(new RegExp(`(${search})`, 'gi')).map((segment, i) => (
       <Segment
         key={i}
