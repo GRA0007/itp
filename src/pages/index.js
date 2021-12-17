@@ -3,7 +3,7 @@ import { Global, ThemeProvider } from '@emotion/react'
 import { Route, Routes } from 'react-router-dom'
 
 import theme, { globalStyles } from 'theme'
-import { Navigation } from 'components'
+import { Footer, Navigation } from 'components'
 
 import Dictionary from './Dictionary/Dictionary'
 
@@ -23,6 +23,8 @@ const Pages = () => {
       <Routes>
         <Route path="/" element={<Dictionary />} />
       </Routes>
+
+      <Footer />
     </ThemeProvider>
   )
 }

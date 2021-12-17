@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 
 import {
   AnteLipuIcon,
@@ -8,32 +8,22 @@ import {
   TokiPonaIcon,
 } from 'icons'
 
+import { Button } from 'components'
+import { NavItem } from './components'
+
 import {
   Wrapper,
   Title,
-  StyledItem,
   Items,
   MenuButton,
-  LanguageSelect,
+  ButtonWrapper,
 } from './navigationStyle'
-
-const Item = ({
-  to,
-  icon,
-  label,
-}) => (
-  <StyledItem
-    as={NavLink}
-    to={to}
-    aria-label={label}
-  >
-    {icon}
-    <span>{label}</span>
-  </StyledItem>
-)
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => setIsMenuOpen(false), [location])
   
   return (
     <Wrapper className={isMenuOpen ? 'open' : ''}>
@@ -45,22 +35,22 @@ const Navigation = () => {
       ><div/><div/><div/></MenuButton>
 
       <Items>
-        <Item
+        <NavItem
           to="/"
           icon={<TokiPonaIcon />}
           label="Dictionary"
         />
-        <Item
+        <NavItem
           to="/sitelenpona"
           icon={<SitelenPonaIcon />}
           label="Glyphs"
         />
-        <Item
+        <NavItem
           to="/kamasona"
           icon={<KamaSonaIcon />}
           label="Learn"
         />
-        <Item
+        <NavItem
           to="/antelipu"
           icon={<AnteLipuIcon />}
           label="Resources"
@@ -68,10 +58,7 @@ const Navigation = () => {
 
         <div style={{ flex: 1 }} />
 
-        <LanguageSelect>
-          <option value="en">English</option>
-          <option value="toki">toki pona</option>
-        </LanguageSelect>
+        <ButtonWrapper><Button>Login or sign up</Button></ButtonWrapper>
       </Items>
     </Wrapper>
   )

@@ -1,25 +1,35 @@
-const YELLOW = 60
-const BLUE = 240
-// #FFFF78 and #111199
+const COLORS = {
+  black: '#111111',
+  white: '#FFFFFF',
+  blue: '#111199',
+  purple: '#4E4EEB',
+  yellow: '#FFFF78',
+  darkYellow: '#828259',
+  gray: '#9B9B9B',
+  darkGray: '#6B6B6B',
+  lightGray: '#B9B9B9',
+}
 
 const theme = isDark => ({
   breakpointTablet: 'max-width: 800px',
 
-  theme: 'light',
-  background: '#FFF',
-  text: `hsl(${BLUE} 50% 10%)`,
-  primary: `hsl(${YELLOW} 100% 74%)`, 
-  secondary: `hsl(${BLUE} 80% 33%)`,
-  highlight: `hsl(${YELLOW} 100% 90%)`,
-  focusRing: '#FF3A20',
+  ...COLORS,
 
-  ...isDark && {
+  // Light
+  theme: 'light',
+  background: COLORS.white,
+  text: COLORS.black,
+  primary: COLORS.yellow,
+  secondary: COLORS.blue,
+  surface: COLORS.purple,
+
+  ...isDark && { // Dark
     theme: 'dark',
-    background: '#111',
-    text: `hsl(${YELLOW} 100% 97%)`,
-    primary: `hsl(${BLUE} 80% 33%)`,
-    secondary: `hsl(${YELLOW} 100% 74%)`,
-    highlight: `hsl(${BLUE} 60% 45%)`,
+    background: COLORS.black,
+    text: COLORS.white,
+    primary: COLORS.blue,
+    secondary: COLORS.yellow,
+    surface: COLORS.yellow,
   },
 })
 
