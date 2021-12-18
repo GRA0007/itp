@@ -46,7 +46,7 @@ const Navigation = () => {
           icon={<SitelenPonaIcon />}
           label="Glyphs"
         />
-        <NavItem
+        {/* <NavItem
           to="/kamasona"
           icon={<KamaSonaIcon />}
           label="Learn"
@@ -60,11 +60,11 @@ const Navigation = () => {
           to="/lipuante"
           icon={<LipuAnteIcon />}
           label="Resources"
-        />
+        /> */}
 
         <div style={{ flex: 1 }} />
 
-        <ButtonWrapper><Button>Login or sign up</Button></ButtonWrapper>
+        {/* <ButtonWrapper><Button>Login or sign up</Button></ButtonWrapper> */}
       </Items>
     </Wrapper>
   )

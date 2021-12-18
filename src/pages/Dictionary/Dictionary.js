@@ -992,7 +992,7 @@ const Dictionary = () => {
   const [showOptions, setShowOptions] = useState(false)
   const [options, setOptions] = useState({
     showExamples: true,
-    showUnofficialWords: false,
+    showNonEssentialWords: false,
   })
 
   return (
@@ -1022,10 +1022,10 @@ const Dictionary = () => {
               onChange={value => setOptions({ ...options, showExamples: value })}
             />
             <SwitchField
-              label="Show unofficial words"
-              id="show-unofficial"
-              value={options.showUnofficialWords}
-              onChange={value => setOptions({ ...options, showUnofficialWords: value })}
+              label="Show non-essential words (coming soon)"
+              id="show-non-essential"
+              value={options.showNonEssentialWords}
+              onChange={value => setOptions({ ...options, showNonEssentialWords: value })}
               disabled
             />
           </OptionsPanel>

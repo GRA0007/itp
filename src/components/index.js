@@ -8,6 +8,7 @@ export { default as SwitchField } from './SwitchField/SwitchField'
 export { default as Button } from './Button/Button'
 
 export { default as Definition } from './Definition/Definition'
+export { default as Glyph } from './Glyph/Glyph'
 
 export { default as Highlight } from './Highlight/Highlight'
 export { default as OptionsPanel } from './OptionsPanel/OptionsPanel'

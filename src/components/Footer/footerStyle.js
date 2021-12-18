@@ -6,5 +6,4 @@ export const Wrapper = styled.footer`
   display: flex;
   align-items: center;
   padding: .7em 1em;
-  justify-content: flex-end;
 `

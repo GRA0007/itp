@@ -6,6 +6,7 @@ import theme, { globalStyles } from 'theme'
 import { Footer, Navigation } from 'components'
 
 import Dictionary from './Dictionary/Dictionary'
+import Glyphs from './Glyphs/Glyphs'
 import NotFound from './NotFound/NotFound'
 
 const Pages = () => {
@@ -23,6 +24,7 @@ const Pages = () => {
 
       <Routes>
         <Route path="/" element={<Dictionary />} />
+        <Route path="/sitelenpona" element={<Glyphs />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
 
