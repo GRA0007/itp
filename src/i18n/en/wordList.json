@@ -3,8 +3,18 @@
     {
       "word": ["a", "kin"],
       "definitions": [{
-        "category": "particle",
-        "definition": "(emphasis, emotion or confirmation)"
+        "category": "interjection",
+        "definition": "ah, ha, oh, ooh, aw (emphasis, emotion or confirmation)",
+        "examples": [
+          {
+            "toki": "a a a",
+            "translation": "Hahaha!"
+          },
+          {
+            "toki": "a! soweli li suwi",
+            "translation": "Aw! That cat is cute"
+          }
+        ]
       }]
     },
     {
@@ -12,33 +22,100 @@
       "definitions": [{
         "category": "noun",
         "definition": "non-cute animal; reptile, amphibian, dinosaur, monster",
-        "example": "akesi linja li moku e soweli suli mute"
+        "examples": [
+          {
+            "toki": "akesi linja li moku e soweli suli mute",
+            "translation": "Snakes eat many large mammals"
+          },
+          {
+            "toki": "akesi seli li lili",
+            "translation": "The dragon is small"
+          }
+        ]
       }]
     },
     {
       "word": "ala",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "no, not, zero"
-      }]
+      "definitions": [
+        {
+          "category": "adjective",
+          "definition": "no, not, none",
+          "examples": [
+            {
+              "toki": "ni ala laso",
+              "translation": "That is not blue"
+            }
+          ]
+        },
+        {
+          "category": "noun",
+          "definition": "nothing, zero",
+          "examples": [
+            {
+              "toki": "mi jo ala",
+              "translation": "I get nothing"
+            }
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": "no",
+          "examples": [
+            {
+              "toki": "ala! ona linja jelo",
+              "translation": "No! They have yellow hair"
+            }
+          ]
+        }
+      ]
     },
     {
       "word": "alasa",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to hunt, forage"
-      }]
+      "definitions": [
+        {
+          "category": "verb",
+          "definition": "to hunt, to forage",
+          "examples": [
+            {
+              "toki": "mi alasa e moku",
+              "translation": "We are hunting for food"
+            }
+          ]
+        },
+        {
+          "category": "noun",
+          "definition": "hunt",
+          "examples": [
+            {
+              "toki": "kama alasa!",
+              "translation": "The hunt begins!"
+            }
+          ]
+        }
+      ]
     },
     {
       "word": ["ale", "ali"],
       "definitions": [
         {
           "category": "adjective",
-          "definition": "all; abundant, countless, bountiful, every, plentiful"
+          "definition": "all; abundant, countless, bountiful, every, plentiful, complete, whole",
+          "examples": [
+            {
+              "toki": "ale kasi li moku",
+              "translation": "The whole plant is edible"
+            }
+          ]
         },
         {
           "category": "noun",
-          "definition": "abundance, everything, life, universe"
+          "definition": "abundance, everything, anything, life, universe",
+          "examples": [
+            {
+              "toki": "ale li pona",
+              "translation": "Life is good"
+            }
+          ]
         },
         {
           "category": "number",
@@ -48,23 +125,61 @@
     },
     {
       "word": "anpa",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "bowing down, downward, humble, lowly, dependent"
-      }]
+      "definitions": [
+        {
+          "category": "adjective",
+          "definition": "bowing down, downward, humble, lowly, dependent, low",
+          "examples": [
+            {
+              "toki": "mi jan anpa li lili",
+              "translation": "My child is small"
+            }
+          ]
+        },
+        {
+          "category": "noun",
+          "definition": "bottom, down, under, below, floor, beneath",
+          "examples": [
+            {
+              "toki": "anpa li jaki",
+              "translation": "The floor is dirty"
+            }
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "lower, down, defeat, overcome"
+        }
+      ]
     },
     {
       "word": "ante",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "different, altered, changed, other"
-      }]
+      "definitions": [
+        {
+          "category": "adjective",
+          "definition": "different, altered, changed, other"
+        },
+        {
+          "category": "noun",
+          "definition": "difference"
+        },
+        {
+          "category": "verb",
+          "definition": "change, alter, modify"
+        }
+      ]
     },
     {
       "word": "anu",
       "definitions": [{
-        "category": "particle",
-        "definition": "or"
+        "category": "conjunction",
+        "definition": "or",
+        "examples": [
+          {
+            "toki": "mi anu sina?",
+            "translation": "Me or you?"
+          }
+        ]
       }]
     },
     {
@@ -72,7 +187,23 @@
       "definitions": [
         {
           "category": "adjective",
-          "definition": "enduring, kept, protected, safe, waiting, staying"
+          "definition": "enduring, kept, protected, safe, waiting, staying, remaining, stationary, permanent, sedentary",
+          "examples": [
+            {
+              "toki": "sina awen",
+              "translation": "You are safe"
+            }
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "stay, wait, remain, keep",
+          "examples": [
+            {
+              "toki": "akesi linja! awen!",
+              "translation": "A snake! Stay still!"
+            }
+          ]
         },
         {
           "category": "pre-verb",
@@ -90,8 +221,8 @@
     {
       "word": "en",
       "definitions": [{
-        "category": "particle",
-        "definition": "(between multiple subjects)"
+        "category": "conjunction",
+        "definition": "and (between multiple subjects)"
       }]
     },
     {

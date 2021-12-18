@@ -17,6 +17,7 @@ const Definition = ({
   word,
   definitions = [],
   search,
+  showExamples = true,
 }) => (
   <Wrapper>
     <Header>
@@ -36,7 +37,7 @@ const Definition = ({
         <Fragment key={def.definition}>
           <Category>{def.category}</Category>
           <Def><Highlight text={def.definition} search={search} /></Def>
-          {def.example && <Example>"{def.example}"</Example>}
+          {def.examples && showExamples && <Example>"{def.examples[0].toki}"</Example>}
         </Fragment>
       ))}
     </Content>

@@ -86,8 +86,8 @@ const Dictionary = () => {
             <Definition
               key={d.word}
               search={q}
-              word={d.word}
-              definitions={options.showExamples ? d.definitions : d.definitions.map(x => ({ ...x, example: null }))}
+              showExamples={options.showExamples}
+              {...d}
             />
           ),
           [q, options, list],
