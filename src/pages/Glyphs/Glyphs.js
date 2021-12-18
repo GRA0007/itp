@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import {
   Button,
@@ -12,129 +13,8 @@ import {
 
 import { GlyphWrapper, Wrapper } from './glyphsStyle'
 
-const list = [
-  'a',
-  'akesi',
-  'ala',
-  'alasa',
-  'ale',
-  'anpa',
-  'ante',
-  'anu',
-  'awen',
-  'e',
-  'en',
-  'esun',
-  'ijo',
-  'ike',
-  'ilo',
-  'insa',
-  'jaki',
-  'jan',
-  'jelo',
-  'jo',
-  'kala',
-  'kalama',
-  'kama',
-  'kasi',
-  'ken',
-  'kepeken',
-  'kili',
-  'kiwen',
-  'ko',
-  'kon',
-  'kule',
-  'kulupu',
-  'kute',
-  'la',
-  'lape',
-  'laso',
-  'lawa',
-  'len',
-  'lete',
-  'li',
-  'lili',
-  'linja',
-  'lipu',
-  'loje',
-  'lon',
-  'luka',
-  'lukin',
-  'lupa',
-  'ma',
-  'mama',
-  'mani',
-  'meli',
-  'mi',
-  'mije',
-  'moku',
-  'moli',
-  'monsi',
-  'mu',
-  'mun',
-  'musi',
-  'mute',
-  'nanpa',
-  'nasa',
-  'nasin',
-  'nena',
-  'ni',
-  'nimi',
-  'noka',
-  'o',
-  'olin',
-  'ona',
-  'open',
-  'pakala',
-  'pali',
-  'palisa',
-  'pan',
-  'pana',
-  'pi',
-  'pilin',
-  'pimeja',
-  'pini',
-  'pipi',
-  'poka',
-  'poki',
-  'pona',
-  'pu',
-  'sama',
-  'seli',
-  'selo',
-  'seme',
-  'sewi',
-  'sijelo',
-  'sike',
-  'sin',
-  'sinpin',
-  'sitelen',
-  'sona',
-  'soweli',
-  'suli',
-  'suno',
-  'supa',
-  'suwi',
-  'tan',
-  'taso',
-  'tawa',
-  'telo',
-  'tenpo',
-  'toki',
-  'tomo',
-  'tu',
-  'unpa',
-  'uta',
-  'utala',
-  'walo',
-  'wan',
-  'waso',
-  'wawa',
-  'weka',
-  'wile',
-]
-
 const Glyphs = () => {
+  const { t } = useTranslation(['common', 'glyphs', 'glyphList'])
   const [q, setQ] = useState('')
   const [showOptions, setShowOptions] = useState(false)
   const [options, setOptions] = useState({
@@ -143,12 +23,14 @@ const Glyphs = () => {
     showNonEssentialGlyphs: false,
   })
 
+  const list = t('glyphList:list', { returnObjects: true })
+
   return (
     <Main>
       <Wrapper>
         <SearchWrapper>
           <TextField
-            placeholder="Search..."
+            placeholder={t('common:search.placeholder')}
             value={q}
             onChange={e => setQ(e.currentTarget.value)}
             type="search"
@@ -158,26 +40,26 @@ const Glyphs = () => {
             secondary={!showOptions}
             onClick={() => setShowOptions(!showOptions)}
             inline
-          >Options</Button>
+          >{t('common:search.options')}</Button>
         </SearchWrapper>
 
         {showOptions && (
           <OptionsPanel>
             <SwitchField
-              label="Show labels"
+              label={t('glyphs:options.showLabels')}
               id="show-labels"
               value={options.showLabels}
               onChange={value => setOptions({ ...options, showLabels: value })}
             />
             <SwitchField
-              label="Show compound glyphs (coming soon)"
+              label={t('glyphs:options.showCompoundGlyphs')}
               id="show-compound"
               value={options.showCompoundGlyphs}
               onChange={value => setOptions({ ...options, showCompoundGlyphs: value })}
               disabled
             />
             <SwitchField
-              label="Show non-essential glyphs (coming soon)"
+              label={t('glyphs:options.showNonEssentialGlyphs')}
               id="show-non-essential"
               value={options.showNonEssentialGlyphs}
               onChange={value => setOptions({ ...options, showNonEssentialGlyphs: value })}
@@ -189,7 +71,7 @@ const Glyphs = () => {
 
       <GlyphWrapper>
         {useMemo(() =>
-          list.filter(d => {
+          Array.isArray(list) && list.filter(d => {
             if (!q || q === '') return true
             if (list.some(l => l.toLocaleLowerCase() === q.toLocaleLowerCase())) {
               return d.toLocaleLowerCase() === q.toLocaleLowerCase()
@@ -203,7 +85,7 @@ const Glyphs = () => {
               showLabel={options.showLabels}
             />
           ),
-          [q, options],
+          [q, options, list],
         )}
       </GlyphWrapper>
     </Main>

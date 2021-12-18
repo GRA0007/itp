@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 import {
   LipuAnteIcon,
@@ -21,6 +22,7 @@ import {
 } from './navigationStyle'
 
 const Navigation = () => {
+  const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
 
@@ -28,10 +30,11 @@ const Navigation = () => {
   
   return (
     <Wrapper className={isMenuOpen ? 'open' : ''}>
-      <Title>ilo toki pona</Title>
+      <Title>{t('site_name')}</Title>
 
       <MenuButton
         type="button"
+        title={t('navigation.menu')}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       ><div/><div/><div/></MenuButton>
 
@@ -39,32 +42,32 @@ const Navigation = () => {
         <NavItem
           to="/"
           icon={<TokiPonaIcon />}
-          label="Dictionary"
+          label={t('navigation.pages.dictionary')}
         />
         <NavItem
           to="/sitelenpona"
           icon={<SitelenPonaIcon />}
-          label="Glyphs"
+          label={t('navigation.pages.glyphs')}
         />
         {/* <NavItem
           to="/kamasona"
           icon={<KamaSonaIcon />}
-          label="Learn"
+          label={t('navigation.pages.learn')}
         />
         <NavItem
           to="/lipunimi"
           icon={<LipuNimiIcon />}
-          label="Reference"
+          label={t('navigation.pages.reference')}
         />
         <NavItem
           to="/lipuante"
           icon={<LipuAnteIcon />}
-          label="Resources"
+          label={t('navigation.pages.resources')}
         /> */}
 
         <div style={{ flex: 1 }} />
 
-        {/* <ButtonWrapper><Button>Login or sign up</Button></ButtonWrapper> */}
+        {/* <ButtonWrapper><Button>{t('navigation.login_signup')}</Button></ButtonWrapper> */}
       </Items>
     </Wrapper>
   )

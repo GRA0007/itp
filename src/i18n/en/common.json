@@ -1,0 +1,28 @@
+{
+  "site_name": "ilo toki pona",
+  "navigation": {
+    "pages": {
+      "dictionary": "Dictionary",
+      "glyphs": "Glyphs",
+      "learn": "Learn",
+      "reference": "Reference",
+      "resources": "Resources"
+    },
+    "menu": "Menu",
+    "login_signup": "Login or sign up"
+  },
+  "footer": {
+    "attribution": "Created by jan Benji",
+    "language": "Language"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "options": "Options"
+  },
+  "controls": {
+    "switch": {
+      "on": "On",
+      "off": "Off"
+    }
+  }
+}

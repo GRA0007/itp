@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next'
+
 import {
   Wrapper,
   Label,
@@ -9,19 +11,23 @@ const SwitchField = ({
   onChange,
   value,
   ...props
-}) => (
-  <Wrapper>
-    <Switch
-      type="button"
-      onClick={() => onChange(!value)}
-      role="switch"
-      title={value ? 'On' : 'Off'}
-      aria-checked={value}
-      {...props}
-    />
+}) => {
+  const { t } = useTranslation()
 
-    {label && <Label htmlFor={props.id}>{label}</Label>}
-  </Wrapper>
-)
+  return (
+    <Wrapper>
+      <Switch
+        type="button"
+        onClick={() => onChange(!value)}
+        role="switch"
+        title={value ? t('controls.switch.on') : t('controls.switch.off')}
+        aria-checked={value}
+        {...props}
+      />
+
+      {label && <Label htmlFor={props.id}>{label}</Label>}
+    </Wrapper>
+  )
+}
 
 export default SwitchField

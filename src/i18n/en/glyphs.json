@@ -1,0 +1,7 @@
+{
+  "options": {
+    "showLabels": "Show labels",
+    "showCompoundGlyphs": "Show compound glyphs (coming soon)",
+    "showNonEssentialGlyphs": "Show non-essential glyphs (coming soon)"
+  }
+}
