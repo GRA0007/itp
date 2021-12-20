@@ -3,14 +3,14 @@ import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import {
-  LipuAnteIcon,
-  LipuNimiIcon,
-  KamaSonaIcon,
+//  LipuAnteIcon,
+//  LipuNimiIcon,
+//  KamaSonaIcon,
   SitelenPonaIcon,
   TokiPonaIcon,
 } from 'icons'
 
-import { Button } from 'components'
+//import { Button } from 'components'
 import { NavItem } from './components'
 
 import {
@@ -18,7 +18,7 @@ import {
   Title,
   Items,
   MenuButton,
-  ButtonWrapper,
+//  ButtonWrapper,
 } from './navigationStyle'
 
 const Navigation = () => {
