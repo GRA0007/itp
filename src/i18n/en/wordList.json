@@ -1,27 +1,39 @@
 {
   "list": [
     {
-      "word": ["a", "kin"],
+      "word": "a",
+      "ipa": "/a/",
       "definitions": [{
         "category": "interjection",
-        "definition": "ah, ha, oh, ooh, aw (emphasis, emotion or confirmation)",
+        "definition": [
+          "emotion word: ah, ha, oh, ooh, aw",
+          "emphasis",
+          "confirmation",
+          "onomatopoeia"
+        ],
         "examples": [
           {
-            "toki": "a a a",
-            "translation": "Hahaha!"
+            "toki": "a a a! ni li musi",
+            "translation": "Hahaha! That's funny"
           },
           {
             "toki": "a! soweli li suwi",
             "translation": "Aw! That cat is cute"
           }
         ]
-      }]
+      }],
+      "etymology": "Onomatopoeic",
+      "set": "pu"
     },
     {
       "word": "akesi",
+      "ipa": "/ˈakesi/",
       "definitions": [{
         "category": "noun",
-        "definition": "non-cute animal; reptile, amphibian, dinosaur, monster",
+        "definition": [
+          "non-cute animal",
+          "reptile, amphibian, dinosaur"
+        ],
         "examples": [
           {
             "toki": "akesi linja li moku e soweli suli mute",
@@ -32,28 +44,52 @@
             "translation": "The dragon is small"
           }
         ]
-      }]
+      }],
+      "etymology": {
+        "language": "Dutch",
+        "word": "hagedis",
+        "translation": "lizard"
+      },
+      "set": "pu"
     },
     {
       "word": "ala",
+      "ipa": "/ˈala/",
       "definitions": [
         {
-          "category": "adjective",
-          "definition": "no, not, none",
-          "examples": [
-            {
-              "toki": "ni ala laso",
-              "translation": "That is not blue"
-            }
-          ]
-        },
-        {
           "category": "noun",
-          "definition": "nothing, zero",
+          "definition": [
+            "nothingness",
+            "negation"
+          ],
           "examples": [
             {
               "toki": "mi jo ala",
               "translation": "I get nothing"
+            }
+          ]
+        },
+        {
+          "category": "number",
+          "definition": "zero"
+        },
+        {
+          "category": "particle",
+          "definition": [
+            "no",
+            "not"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "no",
+            "none"
+          ],
+          "examples": [
+            {
+              "toki": "ni ala laso",
+              "translation": "That is not blue"
             }
           ]
         },
@@ -67,20 +103,35 @@
             }
           ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Georgian",
+        "word": "არა (ara)",
+        "translation": "no"
+      },
+      "antonyms": ["ale"],
+      "set": "pu"
     },
     {
       "word": "alasa",
+      "ipa": "/ˈalasa/",
       "definitions": [
         {
           "category": "verb",
-          "definition": "to hunt, to forage",
+          "definition": [
+            "to hunt, forage",
+            "to gather, harvest"
+          ],
           "examples": [
             {
               "toki": "mi alasa e moku",
               "translation": "We are hunting for food"
             }
           ]
+        },
+        {
+          "category": "pre-verb",
+          "definition": "to try to"
         },
         {
           "category": "noun",
@@ -92,14 +143,45 @@
             }
           ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "a la chasse",
+        "translation": "hunting"
+      },
+      "set": "pu"
     },
     {
       "word": ["ale", "ali"],
+      "ipa": ["/ˈale/", "/ˈali/"],
       "definitions": [
         {
+          "category": "noun",
+          "definition": [
+            "life",
+            "universe",
+            "abundance",
+            "everything, anything"
+          ],
+          "examples": [
+            {
+              "toki": "ale li pona",
+              "translation": "Life is good"
+            },
+            {
+              "toki": "ale la ma jan li lili mute mute",
+              "translation": "Compared to the universe, the territory of humanity is very very small"
+            }
+          ]
+        },
+        {
           "category": "adjective",
-          "definition": "all; abundant, countless, bountiful, every, plentiful, complete, whole",
+          "definition": [
+            "all, every",
+            "complete",
+            "whole",
+            "abundant, countless, bountiful, plentiful"
+          ],
           "examples": [
             {
               "toki": "ale kasi li moku",
@@ -108,37 +190,28 @@
           ]
         },
         {
-          "category": "noun",
-          "definition": "abundance, everything, anything, life, universe",
-          "examples": [
-            {
-              "toki": "ale li pona",
-              "translation": "Life is good"
-            }
-          ]
-        },
-        {
           "category": "number",
           "definition": "100"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "alle",
+        "translation": "all"
+      },
+      "antonyms": ["ala"],
+      "set": "pu"
     },
     {
       "word": "anpa",
+      "ipa": "/ˈanpa/",
       "definitions": [
         {
-          "category": "adjective",
-          "definition": "bowing down, downward, humble, lowly, dependent, low",
-          "examples": [
-            {
-              "toki": "mi jan anpa li lili",
-              "translation": "My child is small"
-            }
-          ]
-        },
-        {
           "category": "noun",
-          "definition": "bottom, down, under, below, floor, beneath",
+          "definition": [
+            "bottom, underside, below, beneath",
+            "floor"
+          ],
           "examples": [
             {
               "toki": "anpa li jaki",
@@ -148,29 +221,78 @@
         },
         {
           "category": "verb",
-          "definition": "lower, down, defeat, overcome"
+          "definition": [
+            "to lower",
+            "to defeat, overcome"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "low, bottom",
+            "down, downward",
+            "humble, lowly, bowing down",
+            "dependent"
+          ],
+          "examples": [
+            {
+              "toki": "mi jan anpa li lili",
+              "translation": "My child is small"
+            }
+          ]
+        },
+        {
+          "category": "adverb",
+          "definition": "down"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "en bas",
+        "translation": "below"
+      },
+      "antonyms": ["sewi"],
+      "set": "pu"
     },
     {
       "word": "ante",
+      "ipa": "/ˈante/",
       "definitions": [
-        {
-          "category": "adjective",
-          "definition": "different, altered, changed, other"
-        },
         {
           "category": "noun",
           "definition": "difference"
         },
         {
           "category": "verb",
-          "definition": "change, alter, modify"
+          "definition": "to change, alter, modify"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "other",
+            "different",
+            "altered, changed"
+          ]
+        },
+        {
+          "category": "conjunction",
+          "definition": [
+            "otherwise",
+            "or else"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "ander",
+        "translation": "other, different"
+      },
+      "antonyms": ["sama"],
+      "set": "pu"
     },
     {
       "word": "anu",
+      "ipa": "/ˈanu/",
       "definitions": [{
         "category": "conjunction",
         "definition": "or",
@@ -180,212 +302,646 @@
             "translation": "Me or you?"
           }
         ]
-      }]
+      }],
+      "etymology": {
+        "language": "Georgian",
+        "word": "ან",
+        "translation": "or"
+      },
+      "set": "pu"
     },
     {
       "word": "awen",
+      "ipa": "/ˈawen/",
       "definitions": [
         {
+          "category": "verb",
+          "definition": [
+            "to stay, remain",
+            "to wait",
+            "to keep",
+            "to protect"
+          ],
+          "examples": [
+            {
+              "toki": "akesi linja! awen!",
+              "translation": "A snake! Stay still!"
+            },
+            {
+              "toki": "mama o awen e jan lili ona",
+              "translation": "Parents should protect their children"
+            }
+          ]
+        },
+        {
+          "category": "pre-verb",
+          "definition": "to continue to",
+          "examples": [
+            {
+              "toki": "mi wile awen pali",
+              "translation": "I want to continue working"
+            }
+          ]
+        },
+        {
           "category": "adjective",
-          "definition": "enduring, kept, protected, safe, waiting, staying, remaining, stationary, permanent, sedentary",
+          "definition": [
+            "remaining, permanent, enduring",
+            "stationary, sedentary",
+            "protected, safe",
+            "waiting, staying",
+            "kept"
+          ],
           "examples": [
             {
               "toki": "sina awen",
               "translation": "You are safe"
             }
           ]
+        }
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "houden",
+        "translation": "to keep"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "e",
+      "ipa": "/e/",
+      "definitions": [{
+        "category": "particle",
+        "definition": "(before the direct object)"
+      }],
+      "set": "pu"
+    },
+    {
+      "word": "en",
+      "ipa": "/en/",
+      "definitions": [{
+        "category": "conjunction",
+        "definition": "and (between multiple subjects)"
+      }],
+      "etymology": {
+        "language": "Dutch",
+        "word": "en",
+        "translation": "and"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "esun",
+      "ipa": "/ˈesun/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "market, shop, fair, bazaar, business transaction"
         },
         {
           "category": "verb",
-          "definition": "stay, wait, remain, keep",
-          "examples": [
-            {
-              "toki": "akesi linja! awen!",
-              "translation": "A snake! Stay still!"
-            }
+          "definition": [
+            "buy",
+            "sell",
+            "exchange, trade"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "échange",
+        "translation": "exchange"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "ijo",
+      "ipa": "/ˈijo/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "thing, object, matter, stuff",
+          "phenomenon"
+        ]
+      }],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "io",
+        "translation": "something"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "ike",
+      "ipa": "/ˈike/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "badness, evil",
+            "negativity"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to make bad, worsen"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "bad, wrong, evil, negative",
+            "complex",
+            "unhealthy",
+            "non-essential, irrelevant"
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": [
+            "oh no, oh dear",
+            "woe, alas"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "ilkeä",
+        "translation": "bad"
+      },
+      "antonyms": ["pona"],
+      "set": "pu"
+    },
+    {
+      "word": "ilo",
+      "ipa": "/ˈilo/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "tool, implement",
+          "machine, device"
+        ]
+      }],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "ilo",
+        "translation": "tool"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "insa",
+      "ipa": "/ˈinsa/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "inside, between",
+            "center",
+            "content",
+            "internal organ, stomach"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "inner, internal"
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "insait",
+          "translation": "inside"
+        },
+        {
+          "language": "English",
+          "word": "inside"
+        }
+      ],
+      "set": "pu"
+    },
+    {
+      "word": "jaki",
+      "ipa": "/ˈjaki/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "dirt, filth",
+            "garbage, pollution"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to pollute, dirty"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "gross, disgusting",
+            "dirty, filthy, unclean, unsanitary",
+            "obscene",
+            "sickly",
+            "toxic"
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": "ew, yuck"
+        }
+      ],
+      "etymology": {
+        "language": "English",
+        "word": "yucky"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "jan",
+      "ipa": "/jan/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "human being, person, somebody"
+        },
+        {
+          "category": "pronoun",
+          "definition": "somebody"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "human",
+            "personal"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Cantonese",
+        "word": "人 (jan)",
+        "translation": "person"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "jelo",
+      "ipa": "/ˈjelo/",
+      "definitions": [{
+        "category": "adjective",
+        "definition": "yellow, yellowish"
+      }],
+      "etymology": {
+        "language": "English",
+        "word": "yellow"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "jo",
+      "ipa": "/jo/",
+      "definitions": [{
+        "category": "verb",
+        "definition": [
+          "to have",
+          "to carry, contain, hold"
+        ]
+      }],
+      "etymology": {
+        "language": "Mandarin",
+        "word": "有 (yǒu)",
+        "translation": "to have"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "kala",
+      "ipa": "/ˈkala/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "fish",
+          "aquatic/marine animal, sea creature"
+        ]
+      }],
+      "etymology": {
+        "language": "Finnish",
+        "word": "kala",
+        "translation": "fish"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "kalama",
+      "ipa": "/ˈkalama/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "sound, noise",
+            "voice"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to sound, play (an instrument)",
+            "to make noise",
+            "to recite, utter aloud"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "galama",
+        "translation": "fuss, noise"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "kama",
+      "ipa": "/ˈkama/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "arrival, coming",
+            "future"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to come, arrive",
+            "to happen, cause"
           ]
         },
         {
           "category": "pre-verb",
-          "definition": "to continue to"
-        }
-      ]
-    },
-    {
-      "word": "e",
-      "definitions": [{
-        "category": "particle",
-        "definition": "(before the direct object)"
-      }]
-    },
-    {
-      "word": "en",
-      "definitions": [{
-        "category": "conjunction",
-        "definition": "and (between multiple subjects)"
-      }]
-    },
-    {
-      "word": "esun",
-      "definitions": [{
-        "category": "noun",
-        "definition": "market, shop, fair, bazaar, business transaction"
-      }]
-    },
-    {
-      "word": "ijo",
-      "definitions": [{
-        "category": "noun",
-        "definition": "thing, phenomenon, object, matter"
-      }]
-    },
-    {
-      "word": "ike",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "bad, negative; non-essential, irrelevant"
-      }]
-    },
-    {
-      "word": "ilo",
-      "definitions": [{
-        "category": "noun",
-        "definition": "tool, implement, machine, device"
-      }]
-    },
-    {
-      "word": "insa",
-      "definitions": [{
-        "category": "noun",
-        "definition": "centre, content, inside, between; internal organ, stomach"
-      }]
-    },
-    {
-      "word": "jaki",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "disgusting, obscene, sickly, toxic, unclean, unsanitary"
-      }]
-    },
-    {
-      "word": "jan",
-      "definitions": [{
-        "category": "noun",
-        "definition": "human being, person, somebody"
-      }]
-    },
-    {
-      "word": "jelo",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "yellow, yellowish"
-      }]
-    },
-    {
-      "word": "jo",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to have, carry, contain, hold"
-      }]
-    },
-    {
-      "word": "kala",
-      "definitions": [{
-        "category": "noun",
-        "definition": "fish, marine animal, sea creature"
-      }]
-    },
-    {
-      "word": "kalama",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to produce a sound; recite, utter aloud"
-      }]
-    },
-    {
-      "word": "kama",
-      "definitions": [
-        {
-          "category": "adjective",
-          "definition": "arriving, coming, future, summoned"
+          "definition": [
+            "to become",
+            "to manage to, succeed in"
+          ]
         },
         {
-          "category": "pre-verb",
-          "definition": "to become, manage to, succeed in"
+          "category": "adjective",
+          "definition": "coming, future"
         }
-      ]
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "kamap",
+          "translation": "appear, become"
+        },
+        {
+          "language": "English",
+          "word": "come up"
+        }
+      ],
+      "antonyms": ["tawa"],
+      "set": "pu"
     },
     {
       "word": "kasi",
-      "definitions": [{
-        "category": "noun",
-        "definition": "plant, vegetation; herb, leaf"
-      }]
+      "ipa": "/ˈkasi/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "plant, vegetation, herb, tree",
+            "leaf",
+            "wood"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "kasvi",
+        "translation": "plant"
+      },
+      "set": "pu"
     },
     {
       "word": "ken",
+      "ipa": "/ken/",
       "definitions": [
         {
+          "category": "noun",
+          "definition": [
+            "possibility",
+            "ability"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to be able",
+            "to be possible",
+            "to allow, enable"
+          ]
+        },
+        {
           "category": "pre-verb",
-          "definition": "to be able to, be allowed to, can, may"
+          "definition": [
+            "can",
+            "may",
+            "to be allowed"
+          ]
         },
         {
           "category": "adjective",
           "definition": "possible"
         }
-      ]
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "ken",
+          "translation": "can"
+        },
+        {
+          "language": "English",
+          "word": "can"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "kepeken",
-      "definitions": [{
-        "category": "preposition",
-        "definition": "to use, with, by means of"
-      }]
+      "ipa": "/ˈkepeken/",
+      "definitions": [
+        {
+          "category": "verb",
+          "definition": "to use"
+        },
+        {
+          "category": "preposition",
+          "definition": "using, with, by means of"
+        }
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "gebruiken",
+        "translation": "to use"
+      },
+      "set": "pu"
     },
     {
       "word": "kili",
+      "ipa": "/ˈkili/",
       "definitions": [{
         "category": "noun",
-        "definition": "fruit, vegetable, mushroom"
-      }]
+        "definition": [
+          "fruit",
+          "vegetable",
+          "nut",
+          "mushroom"
+        ]
+      }],
+      "etymology": {
+        "language": "Georgian",
+        "word": "ხილი (xili)",
+        "translation": "fruit"
+      },
+      "synonyms": ["soko"],
+      "set": "pu"
     },
     {
       "word": "kiwen",
-      "definitions": [{
-        "category": "noun",
-        "definition": "hard object, metal, rock, stone"
-      }]
+      "ipa": "/ˈkiwen/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "hard object",
+            "rock, stone, mineral",
+            "metal"
+          ],
+          "examples": [
+            {
+              "toki": "mi jo e kiwen kule mute",
+              "translation": "I have many colorful rocks"
+            }
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "hard, solid",
+          "examples": [
+            {
+              "toki": "selo kiwen li awen e akesi",
+              "translation": "A hard shell protects turtles"
+            }
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "kiven",
+        "translation": "stone"
+      },
+      "set": "pu"
     },
     {
       "word": "ko",
+      "ipa": "/ko/",
       "definitions": [{
         "category": "noun",
         "definition": "clay, clinging form, dough, semi-solid, paste, powder"
-      }]
+      }],
+      "etymology": {
+        "language": "Cantonese",
+        "word": "膏 (gou)",
+        "translation": "cream, paste"
+      },
+      "set": "pu"
     },
     {
       "word": "kon",
-      "definitions": [{
-        "category": "noun",
-        "definition": "air, breath; essence, spirit; hidden reality, unseen agent"
-      }]
+      "ipa": "/kon/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "air",
+            "breath",
+            "spirit, soul",
+            "essence, meaning"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "gaseous",
+            "unseen, invisible"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Mandarin",
+        "word": "空氣 (kōngqì)",
+        "translation": "air"
+      },
+      "set": "pu"
     },
     {
       "word": "kule",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "colourful, pigmented, painted"
-      }]
+      "ipa": "/ˈkule/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "color"
+        },
+        {
+          "category": "verb",
+          "definition": "to color, paint"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "colourful",
+            "pigmented, painted"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "couleur",
+        "translation": "color"
+      },
+      "set": "pu"
     },
     {
       "word": "kulupu",
-      "definitions": [{
-        "category": "noun",
-        "definition": "community, company, group, nation, society, tribe"
-      }]
+      "ipa": "/ˈkulupu/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "group, company",
+            "community, society, tribe, nation"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "communal, shared, public"
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Tongan",
+          "word": "kulupu",
+          "translation": "group"
+        },
+        {
+          "language": "English",
+          "word": "group"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "kute",
+      "ipa": "/ˈkute/",
       "definitions": [
         {
           "category": "noun",
@@ -393,102 +949,301 @@
         },
         {
           "category": "verb",
-          "definition": "to hear, listen; pay attention to, obey"
+          "definition": [
+            "to hear",
+            "to listen, pay attention",
+            "to obey"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "écouter",
+        "translation": "to listen"
+      },
+      "set": "pu"
     },
     {
       "word": "la",
+      "ipa": "/la/",
       "definitions": [{
         "category": "particle",
         "definition": "(between the context phrase and the main sentence)"
-      }]
+      }],
+      "set": "pu"
     },
     {
       "word": "lape",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "sleeping, resting"
-      }]
-    },
-    {
-      "word": "laso",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "blue, green"
-      }]
-    },
-    {
-      "word": "lawa",
+      "ipa": "/ˈlape/",
       "definitions": [
         {
           "category": "noun",
-          "definition": "head, mind"
+          "definition": "sleep, rest"
         },
         {
           "category": "verb",
-          "definition": "to control, direct, guide, lead, own, plan, regulate, rule"
+          "definition": "to sleep, rest"
+        },
+        {
+          "category": "adjective",
+          "definition": "sleeping, resting"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "slapen",
+        "translation": "to sleep"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "laso",
+      "ipa": "/ˈlaso/",
+      "definitions": [{
+        "category": "adjective",
+        "definition": [
+          "blue, blueish",
+          "green, greenish"
+        ]
+      }],
+      "etymology": {
+        "language": "Welsh",
+        "word": "glas",
+        "translation": "blue"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "lawa",
+      "ipa": "/ˈlawa/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "head",
+            "mind"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to lead, direct, guide",
+            "to control, rule, regulate, own",
+            "to plan"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "main",
+            "leading, in charge"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "glava",
+        "translation": "head"
+      },
+      "set": "pu"
     },
     {
       "word": "len",
+      "ipa": "/len/",
       "definitions": [{
         "category": "noun",
-        "definition": "cloth, clothing, fabric, textile; cover, layer of privacy"
-      }]
+        "definition": [
+          "clothing",
+          "cloth, fabric, textile",
+          "cover, layer of privacy"
+        ]
+      }],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "linge",
+        "translation": "clothing"
+      },
+      "set": "pu"
     },
     {
       "word": "lete",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "cold, cool; uncooked, raw"
-      }]
+      "ipa": "/ˈlete/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "cold"
+        },
+        {
+          "category": "verb",
+          "definition": "to cool, chill"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "cold, cool",
+            "uncooked, raw"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "frette",
+        "translation": "cold"
+      },
+      "antonyms": ["seli"],
+      "set": "pu"
     },
     {
       "word": "li",
+      "ipa": "/li/",
       "definitions": [{
         "category": "particle",
         "definition": "(between any subject except mi alone or sina alone and its verb; also to introduce a new verb for the same subject)"
-      }]
+      }],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "li",
+        "translation": "he"
+      },
+      "set": "pu"
     },
     {
       "word": "lili",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "little, small, short; few; a bit; young"
-      }]
+      "ipa": "/ˈlili/",
+      "definitions": [
+        {
+          "category": "verb",
+          "definition": [
+            "to reduce, lessen",
+            "to shorten, shrink"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "small, little, short",
+            "few, less, a bit",
+            "young"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Tok Pisin",
+        "word": "liklik",
+        "translation": "small"
+      },
+      "antonyms": ["suli"],
+      "set": "pu"
     },
     {
       "word": "linja",
-      "definitions": [{
-        "category": "noun",
-        "definition": "long and flexible thing; cord, hair, rope, thread, yarn"
-      }]
+      "ipa": "/ˈlinja/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "line",
+            "hair",
+            "long, thin, flexible, floppy thing",
+            "cord, rope, thread, yarn"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "long, thin, flexible, floppy"
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "linja",
+        "translation": "line"
+      },
+      "set": "pu"
     },
     {
       "word": "lipu",
+      "ipa": "/ˈlipu/",
       "definitions": [{
         "category": "noun",
-        "definition": "flat object; book, document, card, paper, record, website"
-      }]
+        "definition": [
+          "flat object",
+          "paper, card",
+          "book, document, record",
+          "website"
+        ]
+      }],
+      "etymology": {
+        "language": "Finnish",
+        "word": "lippu",
+        "translation": "flag, ticket"
+      },
+      "set": "pu"
     },
     {
       "word": "loje",
+      "ipa": "/ˈloje/",
       "definitions": [{
         "category": "adjective",
         "definition": "red, reddish"
-      }]
+      }],
+      "etymology": {
+        "language": "Dutch",
+        "word": "rooie",
+        "translation": "red"
+      },
+      "set": "pu"
     },
     {
       "word": "lon",
-      "definitions": [{
-        "category": "preposition",
-        "definition": "located at, present at, real, true, existing"
-      }]
+      "ipa": "/lon/",
+      "definitions": [
+        {
+          "category": "verb",
+          "definition": [
+            "to be present, exist",
+            "to be real, true",
+            "to be awake"
+          ]
+        },
+        {
+          "category": "preposition",
+          "definition": "at, in on",
+          "examples": [
+            {
+              "toki": "soweli li lon supa",
+              "translation": "The cat is on the table"
+            }
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "true, real",
+            "existing, present"
+          ],
+          "examples": [
+            {
+              "toki": "lipu ni li toki e ijo lon",
+              "translation": "This book talks about true facts"
+            }
+          ]
+        },
+        {
+          "category": "particle",
+          "definition": "yes, that's true"
+        }
+      ],
+      "etymology": {
+        "language": "Tok Pisin",
+        "word": "long",
+        "translation": "at, in, on"
+      },
+      "antonyms": ["ala"],
+      "set": "pu"
     },
     {
       "word": "luka",
+      "ipa": "/ˈluka/",
       "definitions": [
         {
           "category": "noun",
@@ -498,10 +1253,17 @@
           "category": "number",
           "definition": "five"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "ruka",
+        "translation": "hand, arm"
+      },
+      "set": "pu"
     },
     {
       "word": ["lukin", "oko"],
+      "ipa": ["/ˈlukin/", "/ˈoko/"],
       "definitions": [
         {
           "category": "noun",
@@ -509,584 +1271,1997 @@
         },
         {
           "category": "verb",
-          "definition": "to look at, see, examine, observe, read, watch"
+          "definition": [
+            "to see, look at, watch, read",
+            "to look, watch out, observe, pay attention",
+            "to examine"
+          ]
         },
         {
           "category": "pre-verb",
           "definition": "to seek, look for, try to"
+        },
+        {
+          "category": "adjective",
+          "definition": "visual"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Tok Pisin",
+        "word": "lukim",
+        "translation": "to see, look at"
+      },
+      "synonyms": ["alasa"],
+      "set": "pu"
     },
     {
       "word": "lupa",
+      "ipa": "/ˈlupa/",
       "definitions": [{
         "category": "noun",
-        "definition": "door, hole, orifice, window"
-      }]
+        "definition": [
+          "hole, pit",
+          "door, window",
+          "orifice"
+        ]
+      }],
+      "etymology": {
+        "language": "Lojban",
+        "word": "clupa",
+        "translation": "loop, circuit"
+      },
+      "antonyms": ["nena"],
+      "set": "pu"
     },
     {
       "word": "ma",
+      "ipa": "/ma/",
       "definitions": [{
         "category": "noun",
-        "definition": "earth, land; outdoors, world; country, territory; soil"
-      }]
+        "definition": [
+          "land, earth, ground, soil",
+          "outdoors",
+          "world",
+          "territory, country"
+        ]
+      }],
+      "etymology": {
+        "language": "Finnish",
+        "word": "maa",
+        "translation": "earth, land"
+      },
+      "set": "pu"
     },
     {
       "word": "mama",
-      "definitions": [{
-        "category": "noun",
-        "definition": "parent, ancestor; creator, originator; caretaker, sustainer"
-      }]
+      "ipa": "/ˈmama/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "parent, ancestor, father, mother",
+            "originator, creator",
+            "caretaker, sustainer"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "parental, maternal, motherly, paternal, fatherly"
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to take care of",
+            "to birth, create"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Georgian",
+        "word": "მამა (mama)",
+        "translation": "father"
+      },
+      "set": "pu"
     },
     {
       "word": "mani",
+      "ipa": "/ˈmani/",
       "definitions": [{
         "category": "noun",
-        "definition": "money, cash, savings, wealth; large domesticated animal"
-      }]
+        "definition": [
+          "money, currency, cash",
+          "wealth, savings, capital",
+          "large domesticated animal"
+        ]
+      }],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "mani",
+          "translation": "money"
+        },
+        {
+          "language": "English",
+          "word": "money"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "meli",
-      "definitions": [{
-        "category": "noun",
-        "definition": "woman, female, feminine person; wife"
-      }]
+      "ipa": "/ˈmeli/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "woman, female, feminine person",
+            "wife, girlfriend"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "female, feminine"
+        }
+      ],
+      "etymology": {
+        "language": "Tok Pisin",
+        "word": "meri",
+        "translation": "woman, wife"
+      },
+      "set": "pu"
     },
     {
       "word": "mi",
+      "ipa": "/mi/",
       "definitions": [{
-        "category": "noun",
-        "definition": "I, me, we, us"
-      }]
+        "category": "pronoun",
+        "definition": [
+          "I, we",
+          "me, us",
+          "my, our"
+        ]
+      }],
+      "etymology": [
+        {
+          "language": "Esperanto",
+          "word": "mi",
+          "translation": "I"
+        },
+        {
+          "language": "English",
+          "word": "me"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "mije",
-      "definitions": [{
-        "category": "noun",
-        "definition": "man, male, masculine person; husband"
-      }]
+      "ipa": "/ˈmije/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "man, male, masculine person",
+            "husband, boyfriend"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "male",
+            "masculine, manly"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "mies",
+        "translation": "man"
+      },
+      "set": "pu"
     },
     {
       "word": "moku",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to eat, drink, consume, swallow, ingest"
-      }]
+      "ipa": "/ˈmoku/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "food, meal",
+          "examples": [
+            {
+              "toki": "kili loje li moku pona",
+              "translation": "Red fruits are good food"
+            }
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to eat, drink, consume, swallow, ingest",
+          "examples": [
+            {
+              "toki": "sina moku e kili la, sina kama wawa",
+              "translation": "If you eat vegetables, you will become strong"
+            }
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "edible",
+          "examples": [
+            {
+              "toki": "kasi ni li moku ala",
+              "translation": "These plants are not edible"
+            }
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Japanese",
+        "word": "もぐもぐ (mogu-mogu)",
+        "translation": "munching"
+      },
+      "set": "pu"
     },
     {
       "word": "moli",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "dead, dying"
-      }]
+      "ipa": "/ˈmoli/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "death"
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to die",
+            "to kill"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "dead",
+            "dying",
+            "deadly, fatal"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "mourir",
+        "translation": "to die"
+      },
+      "set": "pu"
     },
     {
       "word": "monsi",
-      "definitions": [{
-        "category": "noun",
-        "definition": "back, behind, rear"
-      }]
+      "ipa": "/ˈmonsi/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "back, behind",
+            "butt"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "back, rear"
+        }
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "mon tchu",
+        "translation": "my butt"
+      },
+      "set": "pu"
     },
     {
       "word": "mu",
+      "ipa": "/mu/",
       "definitions": [{
-        "category": "particle",
+        "category": "interjection",
         "definition": "(animal noise or communication)"
-      }]
+      }],
+      "etymology": "Onomatopoeic (cow or cat)",
+      "set": "pu"
     },
     {
       "word": "mun",
-      "definitions": [{
-        "category": "noun",
-        "definition": "moon, night sky object, star"
-      }]
+      "ipa": "/mun/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "moon",
+            "planet",
+            "star",
+            "night sky object, celestial object"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "lunar",
+            "celestial"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "English",
+        "word": "moon"
+      },
+      "set": "pu"
     },
     {
       "word": "musi",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "artistic, entertaining, frivolous, playful, recreational"
-      }]
+      "ipa": "/ˈmusi/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "fun",
+            "game",
+            "recreation",
+            "art",
+            "music"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to laugh",
+            "to play, have fun",
+            "to amuse, entertain"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "fun, entertaining, recreational",
+            "playful, frivolous",
+            "artistic, artful, musical"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "amuzi",
+        "translation": "to have fun"
+      },
+      "set": "pu"
     },
     {
       "word": "mute",
+      "ipa": "/ˈmute/",
       "definitions": [
         {
+          "category": "adverb",
+          "definition": [
+            "much, many, a lot",
+            "very"
+          ]
+        },
+        {
           "category": "adjective",
-          "definition": "many, a lot, more, much, several, very"
+          "definition": "several, multiple"
         },
         {
           "category": "noun",
-          "definition": "quantity"
+          "definition": "quantity, multitude, amount"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "multe",
+        "translation": "many, a lot"
+      },
+      "set": "pu"
     },
     {
       "word": "nanpa",
+      "ipa": "/ˈnanpa/",
       "definitions": [
         {
           "category": "particle",
-          "definition": "-th (ordinal number)"
+          "definition": "-th (ordinal number)",
+          "examples": [
+            {
+              "toki": "nanpa wan",
+              "translation": "number one"
+            },
+            {
+              "toki": "nanpa tu",
+              "translation": "number two"
+            }
+          ]
         },
         {
           "category": "noun",
-          "definition": "numbers"
+          "definition": "number"
         }
-      ]
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "namba",
+          "translation": "number"
+        },
+        {
+          "language": "English",
+          "word": "number"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "nasa",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "unusual, strange; foolish, crazy; drunk, intoxicated"
-      }]
-    },
-    {
-      "word": "nasin",
-      "definitions": [{
-        "category": "noun",
-        "definition": "way, custom, doctrine, method, path, road"
-      }]
-    },
-    {
-      "word": "nena",
-      "definitions": [{
-        "category": "noun",
-        "definition": "bump, button, hill, mountain, nose, protuberance"
-      }]
-    },
-    {
-      "word": "ni",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "that, this"
-      }]
-    },
-    {
-      "word": "nimi",
-      "definitions": [{
-        "category": "noun",
-        "definition": "name, word"
-      }]
-    },
-    {
-      "word": "noka",
-      "definitions": [{
-        "category": "noun",
-        "definition": "foot, leg, organ of locomotion; bottom, lower part"
-      }]
-    },
-    {
-      "word": "o",
-      "definitions": [{
-        "category": "particle",
-        "definition": "hey! O! (vocative or imperative)"
-      }]
-    },
-    {
-      "word": "olin",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to love, have compassion for, respect, show affection to"
-      }]
-    },
-    {
-      "word": "ona",
-      "definitions": [{
-        "category": "noun",
-        "definition": "he, she, it, they"
-      }]
-    },
-    {
-      "word": "open",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to begin, start; open; turn on"
-      }]
-    },
-    {
-      "word": "pakala",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "botched, broken, damaged, harmed, messed up"
-      }]
-    },
-    {
-      "word": "pali",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to do, take action on, work on; build, make, prepare"
-      }]
-    },
-    {
-      "word": "palisa",
-      "definitions": [{
-        "category": "noun",
-        "definition": "long hard thing; branch, rod, stick"
-      }]
-    },
-    {
-      "word": "pan",
-      "definitions": [{
-        "category": "noun",
-        "definition": "cereal, grain; barley, corn, oat, rice, wheat; bread, pasta"
-      }]
-    },
-    {
-      "word": "pana",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to give, send, emit, provide, put, release"
-      }]
-    },
-    {
-      "word": "pi",
-      "definitions": [{
-        "category": "particle",
-        "definition": "of"
-      }]
-    },
-    {
-      "word": "pilin",
+      "ipa": "/ˈnasa/",
       "definitions": [
         {
-          "category": "noun",
-          "definition": "heart (physical or emotional)"
+          "category": "verb",
+          "definition": "to drive crazy, make weird"
         },
         {
           "category": "adjective",
-          "definition": "feeling (an emotion, a direct experience)"
+          "definition": [
+            "silly, crazy, foolish",
+            "weird, strange, unusual",
+            "drunk, intoxicated"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Tok Pisin",
+        "word": "nasau",
+        "translation": "stupid"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "nasin",
+      "ipa": "/ˈnasin/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "path, road, street",
+          "way, manner, method",
+          "custom, doctrine, system"
+        ]
+      }],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "način",
+        "translation": "way, method"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "nena",
+      "ipa": "/ˈnena/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "protrusion, bump, protuberance",
+          "hill, mountain",
+          "nose",
+          "button"
+        ]
+      }],
+      "etymology": {
+        "language": "Finnish",
+        "word": "nenä",
+        "translation": "nose"
+      },
+      "antonyms": ["lupa"],
+      "set": "pu"
+    },
+    {
+      "word": "ni",
+      "ipa": "/ˈni/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "this, that"
+        },
+        {
+          "category": "adjective",
+          "definition": "this, that"
+        }
+      ],
+      "etymology": {
+        "language": "Cantonese",
+        "word": "呢 (ne, ni, nei)",
+        "translation": "this"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "nimi",
+      "ipa": "/ˈnimi/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "name",
+            "word"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "named"
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "nimi",
+        "translation": "name"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "noka",
+      "ipa": "/ˈnoka/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "foot, leg, organ of locomotion",
+          "bottom, lower part"
+        ]
+      }],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "noga",
+        "translation": "foot, leg"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "o",
+      "ipa": "/o/",
+      "definitions": [
+        {
+          "category": "particle",
+          "definition": [
+            "used to express wishes and commands",
+            "vocative or imperative case marker"
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": "hey, O"
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Georgian",
+          "word": "-ო",
+          "notes": "vocative case marker"
+        },
+        {
+          "language": "English",
+          "word": "oh"
+        }
+      ],
+      "set": "pu"
+    },
+    {
+      "word": "olin",
+      "ipa": "/ˈolin/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "love"
+        },
+        {
+          "category": "verb",
+          "definition": "to love, have compassion for, respect, show affection to"
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "volim",
+        "translation": "I love, I like"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "ona",
+      "ipa": "/ˈona/",
+      "definitions": [
+        {
+          "category": "pronoun",
+          "definition": "he, she, it, they"
+        },
+        {
+          "category": "adjective",
+          "definition": "his, her, its, their"
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "ona",
+        "translation": "she"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "open",
+      "ipa": "/ˈopen/",
+      "definitions": [{
+        "category": "verb",
+        "definition": [
+          "to begin, start",
+          "to open",
+          "to turn on"
+        ]
+      }],
+      "etymology": {
+        "language": "English",
+        "word": "open"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "pakala",
+      "ipa": "/ˈpakala/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "accident, mistake, blunder",
+            "destruction, damage"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to botch, ruin",
+            "to screw up, fall apart, break"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "broken, damaged, harmed, messed up",
+            "botched"
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": "damn, (explicative)"
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "bagarap",
+          "notes": "broken down, accident"
+        },
+        {
+          "language": "English",
+          "word": "bugger up"
+        }
+      ],
+      "set": "pu"
+    },
+    {
+      "word": "pali",
+      "ipa": "/ˈpali/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "activity, deed",
+            "work, project"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to do, make, build, create, prepare",
+            "to act, work, function"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "active",
+            "working, operating"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "fari",
+        "translation": "to do, make"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "palisa",
+      "ipa": "/ˈpalisa/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "long, hard thing",
+          "branch, rod, stick"
+        ]
+      }],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "pȁlica",
+        "translation": "rod, cane"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "pan",
+      "ipa": "/ˈpan/",
+      "definitions": [{
+        "category": "noun",
+        "definition": [
+          "cereal, grain",
+          "barley, corn, oat, rice, wheat",
+          "bread, pasta"
+        ]
+      }],
+      "etymology": [
+        {
+          "language": "French",
+          "word": "pain",
+          "notes": "bread"
+        },
+        {
+          "language": "Italian",
+          "word": "pane",
+          "notes": "bread"
+        },
+        {
+          "language": "Portuguese",
+          "word": "pão",
+          "notes": "bread"
+        },
+        {
+          "language": "Romanian",
+          "word": "pâine",
+          "notes": "bread"
+        },
+        {
+          "language": "Spanish",
+          "word": "pan",
+          "notes": "bread"
+        },
+        {
+          "language": "Japanese",
+          "word": "パン",
+          "notes": "bread"
+        }
+      ],
+      "set": "pu"
+    },
+    {
+      "word": "pana",
+      "ipa": "/ˈpana/",
+      "definitions": [
+        {
+          "category": "verb",
+          "definition": [
+            "to give, send, provide",
+            "to put, place",
+            "to release, emit"
+          ]
+        },
+        {
+          "category": "noun",
+          "definition": "the act of giving"
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "panna",
+        "translation": "put, set, place"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "pi",
+      "ipa": "/pi/",
+      "definitions": [{
+        "category": "particle",
+        "definition": "of"
+      }],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "bilong",
+          "notes": "of, belonging to"
+        },
+        {
+          "language": "English",
+          "word": "belong"
+        }
+      ],
+      "set": "pu"
+    },
+    {
+      "word": "pilin",
+      "ipa": "/ˈpilin/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "feeling, emotion",
+            "heart (physical or emotional)"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to feel, sense, touch",
+            "to think"
+          ]
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "pilim",
+          "notes": "to feel, touch"
+        },
+        {
+          "language": "English",
+          "word": "feeling"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "pimeja",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "black, dark, unlit"
-      }]
+      "ipa": "/ˈpimeja/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "black",
+            "darkness, shadow"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to darken"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "black, dark",
+            "unlit"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "pimeä",
+        "translation": "dark"
+      },
+      "set": "pu"
     },
     {
       "word": "pini",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "ago, completed, ended, finished, past"
-      }]
+      "ipa": "/ˈpini/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "end",
+            "tip"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to finish, end",
+            "to close, turn off"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "completed, ended, finished, done",
+            "past, ago"
+          ]
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Acadian French",
+          "word": "fini",
+          "notes": "finish"
+        },
+        {
+          "language": "Esperanto",
+          "word": "fini",
+          "notes": "finish"
+        },
+        {
+          "language": "Tok Pisin",
+          "word": "pinis",
+          "notes": "finish"
+        },
+        {
+          "language": "English",
+          "word": "finish"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "pipi",
+      "ipa": "/ˈpipi/",
       "definitions": [{
         "category": "noun",
         "definition": "bug, insect, ant, spider"
-      }]
+      }],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "bibitte",
+        "translation": "bug"
+      },
+      "set": "pu"
     },
     {
       "word": "poka",
-      "definitions": [{
-        "category": "noun",
-        "definition": "hip, side; next to, nearby, vicinity"
-      }]
+      "ipa": "/ˈpoka/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "hip, side, flank",
+            "vicinity"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "near, neighboring, nearby",
+            "at the side"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "boka",
+        "translation": "side, flank"
+      },
+      "set": "pu"
     },
     {
       "word": "poki",
+      "ipa": "/ˈpoki/",
       "definitions": [{
         "category": "noun",
-        "definition": "container, bag, bowl, box, cup, cupboard, drawer, vessel"
-      }]
+        "definition": [
+          "container, bag, box, cupboard, drawer",
+          "cup, glass, bowl, vessel"
+        ]
+      }],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "bokis",
+          "notes": "box"
+        },
+        {
+          "language": "English",
+          "word": "box"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "pona",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "good, positive, useful; friendly, peaceful; simple"
-      }]
+      "ipa": "/ˈpona/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "goodness, positivity",
+            "simplicity"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to improve, fix",
+            "to make good"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "good, positive",
+            "useful",
+            "friendly, nice, peaceful",
+            "simple"
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": [
+            "great, good",
+            "OK, cool",
+            "yay",
+            "thanks"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "bona",
+        "translation": "good"
+      },
+      "antonyms": ["ike"],
+      "set": "pu"
     },
     {
       "word": "pu",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "interacting with the official Toki Pona book"
-      }]
-    },
-    {
-      "word": "sama",
+      "ipa": "/pu/",
       "definitions": [
         {
           "category": "adjective",
-          "definition": "same, similar; each other; sibling, peer, fellow"
+          "definition": [
+            "interacting with the official Toki Pona book, Toki Pona: The Language of Good",
+            "of or relating to this book"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to read or otherwise interact with Toki Pona: The Language of Good"
+        },
+        {
+          "category": "noun",
+          "definition": [
+            "interaction with Toki Pona: The Language of Good",
+            "the variety of Toki Pona presented in this book"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "English",
+        "word": "book"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "sama",
+      "ipa": "/ˈsama/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "sibling",
+            "peer"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "same, equal",
+            "similar",
+            "fellow"
+          ]
         },
         {
           "category": "preposition",
           "definition": "as, like"
         }
-      ]
+      ],
+      "etymology": [
+        {
+          "language": "Finnish",
+          "word": "sama",
+          "notes": "same"
+        },
+        {
+          "language": "Esperanto",
+          "word": "sama",
+          "notes": "same"
+        }
+      ],
+      "antonyms": ["ante"],
+      "set": "pu"
     },
     {
       "word": "seli",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "fire; cooking element, chemical reaction, heat source"
-      }]
+      "ipa": "/ˈseli/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "fire",
+            "heat, warmth",
+            "chemical reaction",
+            "heat source",
+            "cooking element"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to heat, warm up",
+            "to cook"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "hot, warm",
+            "cooked"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Georgian",
+        "word": "ცხელი (cxeli)",
+        "translation": "hot"
+      },
+      "antonyms": ["lete"],
+      "set": "pu"
     },
     {
       "word": "selo",
+      "ipa": "/ˈselo/",
       "definitions": [{
         "category": "noun",
-        "definition": "outer form, outer layer; bark, peel, shell, skin; boundary"
-      }]
+        "definition": [
+          "outside, surface, outer layer",
+          "skin, bark, peel",
+          "shell",
+          "boundary"
+        ]
+      }],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "ŝelo",
+        "translation": "skin"
+      },
+      "set": "pu"
     },
     {
       "word": "seme",
-      "definitions": [{
-        "category": "particle",
-        "definition": "what? which?"
-      }]
+      "ipa": "/ˈseme/",
+      "definitions": [
+        {
+          "category": "pronoun",
+          "definition": "what, which"
+        },
+        {
+          "category": "adjective",
+          "definition": "what, which"
+        },
+        {
+          "category": "particle",
+          "definition": "(a question word)"
+        }
+      ],
+      "etymology": {
+        "language": "Chinese",
+        "word": "什麼 (shénme)",
+        "translation": "what"
+      },
+      "set": "pu"
     },
     {
       "word": "sewi",
+      "ipa": "/ˈsewi/",
       "definitions": [
         {
           "category": "noun",
-          "definition": "area above, highest part, something elevated"
+          "definition": [
+            "top, up",
+            "area above",
+            "highest part",
+            "something elevated"
+          ]
         },
         {
           "category": "adjective",
-          "definition": "awe-inspiring, divine, sacred, supernatural"
+          "definition": [
+            "high, elevated, above",
+            "holy, divine, sacred, supernatural",
+            "awe-inspiring"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Georgian",
+        "word": "ზევით (zevit)",
+        "translation": "upwards"
+      },
+      "antonyms": ["anpa"],
+      "set": "pu"
     },
     {
       "word": "sijelo",
+      "ipa": "/ˈsijelo/",
       "definitions": [{
         "category": "noun",
-        "definition": "body (of person or animal), physical state, torso"
-      }]
+        "definition": [
+          "body (of person or animal)",
+          "torso",
+          "physical state"
+        ]
+      }],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "tijȇlo",
+        "translation": "body"
+      },
+      "set": "pu"
     },
     {
       "word": "sike",
+      "ipa": "/ˈsike/",
       "definitions": [
         {
           "category": "noun",
-          "definition": "round or circular thing; ball, circle, cycle, sphere, wheel"
+          "definition": [
+            "ball, round or circular thing",
+            "circle, sphere",
+            "wheel",
+            "cycle"
+          ]
         },
         {
           "category": "adjective",
-          "definition": "of one year"
+          "definition": [
+            "round",
+            "cyclical",
+            "of one year"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "English",
+        "word": "circle"
+      },
+      "set": "pu"
     },
     {
       "word": ["sin", "namako"],
-      "definitions": [{
-        "category": "adjective",
-        "definition": "new, fresh; additional, another, extra"
-      }]
-    },
-    {
-      "word": "sina",
-      "definitions": [{
-        "category": "noun",
-        "definition": "you"
-      }]
-    },
-    {
-      "word": "sinpin",
-      "definitions": [{
-        "category": "noun",
-        "definition": "face, foremost, front, wall"
-      }]
-    },
-    {
-      "word": "sitelen",
-      "definitions": [{
-        "category": "noun",
-        "definition": "image, picture, representation, symbol, mark, writing"
-      }]
-    },
-    {
-      "word": "sona",
+      "ipa": ["/sin/", "/ˈnamako/"],
       "definitions": [
         {
           "category": "verb",
-          "definition": "to know, be skilled in, be wise about, have information on"
+          "definition": "to renew, renovate, freshen"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "new, fresh",
+            "additional, another, extra"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Chinese",
+        "word": "新 (xīn)",
+        "translation": "new, fresh"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "sina",
+      "ipa": "/ˈsina/",
+      "definitions": [
+        {
+          "category": "pronoun",
+          "definition": "you"
+        },
+        {
+          "category": "adjective",
+          "definition": "your"
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "sinä",
+        "translation": "you"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "sinpin",
+      "ipa": "/ˈsinpin/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "front",
+            "chest, torso",
+            "face",
+            "wall"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "foremost"
+        }
+      ],
+      "etymology": {
+        "language": "Cantonese",
+        "word": "前邊 (cin, bin)",
+        "translation": "in front"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "sitelen",
+      "ipa": "/ˈsitelen/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "image, picture",
+            "representation, symbol",
+            "mark, writing"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to draw",
+            "to write"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "schilderen",
+        "translation": "to paint"
+      },
+      "set": "pu"
+    },
+    {
+      "word": "sona",
+      "ipa": "/ˈsona/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "knowledge, wisdom",
+            "intelligence"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to know, understand",
+            "to be skilled in",
+            "to have information on, be wise about"
+          ]
         },
         {
           "category": "pre-verb",
           "definition": "to know how to"
         }
-      ]
+      ],
+      "etymology": {
+        "language": "Georgian",
+        "word": "ცოდნა (codna)",
+        "translation": "knowledge"
+      },
+      "set": "pu"
     },
     {
       "word": "soweli",
+      "ipa": "/ˈsoweli/",
       "definitions": [{
         "category": "noun",
-        "definition": "animal, beast, land mammal"
-      }]
+        "definition": [
+          "land animal",
+          "mammal",
+          "beast",
+          "mammal meat"
+        ]
+      }],
+      "etymology": {
+        "language": "Georgian",
+        "word": "ცხოველი (cxoveli)",
+        "translation": "animal"
+      },
+      "set": "pu"
     },
     {
       "word": "suli",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "big, heavy, large, long, tall; important; adult"
-      }]
+      "ipa": "/ˈsuli/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "size"
+        },
+        {
+          "category": "verb",
+          "definition": "to enlarge, lengthen"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "big, large, tall, long",
+            "important",
+            "adult",
+            "heavy"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "suuri",
+        "translation": "big"
+      },
+      "set": "pu"
     },
     {
       "word": "suno",
+      "ipa": "/ˈsuno/",
       "definitions": [{
         "category": "noun",
-        "definition": "sun; light, brightness, glow, radiance, shine; light source"
-      }]
+        "definition": [
+          "sun",
+          "light, glow, radiance, shine",
+          "brightness",
+          "light source"
+        ]
+      }],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "suno",
+        "translation": "sun"
+      },
+      "set": "pu"
     },
     {
       "word": "supa",
+      "ipa": "/ˈsupa/",
       "definitions": [{
         "category": "noun",
-        "definition": "horizontal surface, thing to put or rest something on"
-      }]
+        "definition": [
+          "horizontal surface, thing to put or rest something on",
+          "piece of furniture"
+        ]
+      }],
+      "etymology": [
+        {
+          "language": "Acadian French",
+          "word": "surface",
+          "translation": "surface"
+        },
+        {
+          "language": "English",
+          "word": "surface"
+        },
+        {
+          "language": "Esperanto",
+          "word": "surfaco",
+          "translation": "surface"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "suwi",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "sweet, fragrant; cute, innocent, adorable"
-      }]
+      "ipa": "/ˈsuwi/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "candy, sweet food"
+        },
+        {
+          "category": "verb",
+          "definition": "to sweeten"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "sweet, fragrant",
+            "cute, adorable",
+            "innocent"
+          ]
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "swit",
+          "translation": "sweet"
+        },
+        {
+          "language": "English",
+          "word": "sweet"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "tan",
-      "definitions": [{
-        "category": "preposition",
-        "definition": "by, from, because of"
-      }]
+      "ipa": "/tan/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "origin, cause"
+        },
+        {
+          "category": "preposition",
+          "definition": [
+            "from",
+            "by, because of"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Cantonese",
+        "word": "從 (cung)",
+        "translation": "from"
+      },
+      "set": "pu"
     },
     {
       "word": "taso",
+      "ipa": "/ˈtaso/",
       "definitions": [
         {
-          "category": "particle",
-          "definition": "but, however"
+          "category": "adjective",
+          "definition": "only, sole"
         },
         {
-          "category": "adjective",
-          "definition": "only"
+          "category": "conjunction",
+          "definition": "but, however"
         }
-      ]
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "tasol",
+          "translation": "but, only"
+        },
+        {
+          "language": "English",
+          "word": "that's all"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "tawa",
+      "ipa": "/ˈtawa/",
       "definitions": [
         {
-          "category": "preposition",
-          "definition": "going to, toward; for; from the perspective of"
+          "category": "noun",
+          "definition": "movement, transportation"
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to go to",
+            "to move, displace",
+            "to walk, travel",
+            "to leave"
+          ]
         },
         {
           "category": "adjective",
-          "definition": "moving"
+          "definition": "moving, mobile"
+        },
+        {
+          "category": "preposition",
+          "definition": [
+            "to, towards",
+            "for",
+            "until",
+            "from the perspective of"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "English",
+        "word": "towards"
+      },
+      "antonyms": ["kama"],
+      "set": "pu"
     },
     {
       "word": "telo",
-      "definitions": [{
-        "category": "noun",
-        "definition": "water, liquid, fluid, wet substance; beverage"
-      }]
+      "ipa": "/ˈtelo/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "water, liquid, fluid, juice, wet substance",
+            "beverage",
+            "sauce"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to water, wash",
+          "examples": [
+            {
+              "toki": "o telo e kili jaki",
+              "translation": "Wash the dirty fruit"
+            }
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "de l'eau",
+        "translation": "some water"
+      },
+      "set": "pu"
     },
     {
       "word": "tenpo",
+      "ipa": "/ˈtenpo/",
       "definitions": [{
         "category": "noun",
-        "definition": "time, duration, moment, occasion, period, situation"
-      }]
+        "definition": [
+          "time, period of time",
+          "duration",
+          "moment",
+          "occasion, situation"
+        ]
+      }],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "tempo",
+        "translation": "time"
+      },
+      "set": "pu"
     },
     {
       "word": "toki",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to communicate, say, speak, say, talk, use language, think"
-      }]
+      "ipa": "/ˈtoki/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "language, speech, communication"
+        },
+        {
+          "category": "adjective",
+          "definition": "speaking, verbal"
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to say, speak, communicate, use language",
+            "to think"
+          ]
+        },
+        {
+          "category": "interjection",
+          "definition": "hello, hi"
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Tok Pisin",
+          "word": "tok",
+          "translation": "message, word, to speak"
+        },
+        {
+          "language": "English",
+          "word": "talk"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "tomo",
-      "definitions": [{
-        "category": "noun",
-        "definition": "indoor space; building, home, house, room"
-      }]
+      "ipa": "/ˈtomo/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "building",
+            "house, home",
+            "indoor space, room"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "domestic, household"
+        }
+      ],
+      "etymology": {
+        "language": "Esperanto",
+        "word": "domo",
+        "translation": "house"
+      },
+      "set": "pu"
     },
     {
       "word": "tu",
-      "definitions": [{
-        "category": "number",
-        "definition": "two"
-      }]
+      "ipa": "/tu/",
+      "definitions": [
+        {
+          "category": "number",
+          "definition": "two"
+        },
+        {
+          "category": "noun",
+          "definition": "duo, pair"
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to double",
+            "to separate, bisect"
+          ]
+        }
+      ],
+      "etymology": [
+        {
+          "language": "English",
+          "word": "two"
+        },
+        {
+          "language": "Esperanto",
+          "word": "du",
+          "translation": "two"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "unpa",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to have sexual or marital relations with"
-      }]
+      "ipa": "/ˈunpa/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "sex",
+            "sexuality"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to have sex",
+            "to have sexual or marital relations with, sleep with"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "erotic, sexual"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "uta",
-      "definitions": [{
-        "category": "noun",
-        "definition": "mouth, lips, oral cavity, jaw"
-      }]
+      "ipa": "/ˈuta/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "mouth, oral cavity",
+            "lips",
+            "jaw"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": "oral"
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "ústa",
+        "translation": "mouth"
+      },
+      "set": "pu"
     },
     {
       "word": "utala",
-      "definitions": [{
-        "category": "verb",
-        "definition": "to battle, challenge, compete against, struggle against"
-      }]
+      "ipa": "/ˈutala/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "conflict, disharmony, violence",
+            "fight, war, battle",
+            "competition",
+            "strike, blow",
+            "argument"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to hit, strike, attack",
+            "to battle, challenge, compete against",
+            "to struggle against"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Serbo-Croatian",
+        "word": "ùdarati",
+        "translation": "to hit, strike"
+      },
+      "set": "pu"
     },
     {
       "word": "walo",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "white, whitish; light-coloured, pale"
-      }]
+      "ipa": "/ˈwalo/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "white thing, whiteness"
+        },
+        {
+          "category": "adjective",
+          "definition": "white, whitish, light-coloured, pale"
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "valkoinen",
+        "translation": "white"
+      },
+      "set": "pu"
     },
     {
       "word": "wan",
+      "ipa": "/wan/",
       "definitions": [
-        {
-          "category": "adjective",
-          "definition": "unique, united"
-        },
         {
           "category": "number",
           "definition": "one"
+        },
+        {
+          "category": "noun",
+          "definition": [
+            "unit, element",
+            "part, piece"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to unite"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "unique",
+            "united"
+          ]
         }
-      ]
+      ],
+      "etymology": {
+        "language": "English",
+        "word": "one"
+      },
+      "set": "pu"
     },
     {
       "word": "waso",
+      "ipa": "/ˈwaso/",
       "definitions": [{
         "category": "noun",
-        "definition": "bird, flying creature, winged animal"
-      }]
+        "definition": [
+          "bird",
+          "flying creature",
+          "winged animal"
+        ]
+      }],
+      "etymology": {
+        "language": "Acadian French",
+        "word": "oiseau",
+        "translation": "bird"
+      },
+      "set": "pu"
     },
     {
       "word": "wawa",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "strong, powerful; confident, sure; energetic, intense"
-      }]
+      "ipa": "/ˈwawa/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "energy",
+            "strength, power"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": "to strengthen, energize, empower"
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "strong, powerful",
+            "fierce",
+            "energetic, intense",
+            "loud",
+            "confident, sure"
+          ]
+        }
+      ],
+      "etymology": {
+        "language": "Finnish",
+        "word": "vahva",
+        "translation": "strong"
+      },
+      "set": "pu"
     },
     {
       "word": "weka",
-      "definitions": [{
-        "category": "adjective",
-        "definition": "absent, away, ignored"
-      }]
+      "ipa": "/ˈweka/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": "absence"
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to throw away, get rid of",
+            "to remove"
+          ]
+        },
+        {
+          "category": "adjective",
+          "definition": [
+            "absent, away",
+            "missing",
+            "ignored"
+          ]
+        }
+      ],
+      "etymology": [
+        {
+          "language": "Dutch",
+          "word": "weg",
+          "translation": "away, gone"
+        },
+        {
+          "language": "English",
+          "word": "away"
+        }
+      ],
+      "set": "pu"
     },
     {
       "word": "wile",
-      "definitions": [{
-        "category": "pre-verb",
-        "definition": "must, need, require, should, want, wish"
-      }]
+      "ipa": "/ˈwile/",
+      "definitions": [
+        {
+          "category": "noun",
+          "definition": [
+            "desire, will",
+            "need"
+          ]
+        },
+        {
+          "category": "verb",
+          "definition": [
+            "to want, wish",
+            "have to, must",
+            "to need, require"
+          ]
+        },
+        {
+          "category": "pre-verb",
+          "definition": "should"
+        }
+      ],
+      "etymology": {
+        "language": "Dutch",
+        "word": "willen",
+        "translation": "to want"
+      },
+      "set": "pu"
     }
   ]
 }

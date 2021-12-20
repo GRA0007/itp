@@ -12,7 +12,8 @@
     "login_signup": "Login or sign up"
   },
   "footer": {
-    "attribution": "Created by jan Benji",
+    "about": "About",
+    "privacy": "Privacy",
     "language": "Language"
   },
   "search": {

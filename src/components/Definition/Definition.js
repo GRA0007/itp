@@ -36,7 +36,7 @@ const Definition = ({
       {definitions.map(def => (
         <Fragment key={def.definition}>
           <Category>{def.category}</Category>
-          <Def><Highlight text={def.definition} search={search} /></Def>
+          <Def><Highlight text={Array.isArray(def.definition) ? def.definition.join('; ') : def.definition} search={search} /></Def>
           {def.examples && showExamples && <Example>"{def.examples[0].toki}"</Example>}
         </Fragment>
       ))}

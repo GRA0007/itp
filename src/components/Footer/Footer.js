@@ -1,9 +1,11 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 import { SelectField } from 'components'
 
 import {
   Wrapper,
+  Links,
 } from './footerStyle'
 
 const Footer = () => {
@@ -11,9 +13,10 @@ const Footer = () => {
 
   return (
     <Wrapper>
-      <a href="https://bengrant.dev">{t('footer.attribution')}</a>
-
-      <div style={{ flex: 1 }} />
+      <Links>
+        <Link to="/about">{t('footer.about')}</Link>
+        <Link to="/privacy">{t('footer.privacy')}</Link>
+      </Links>
 
       <SelectField
         title={t('footer.language')}

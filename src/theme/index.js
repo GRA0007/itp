@@ -12,6 +12,7 @@ const COLORS = {
 
 const theme = isDark => ({
   breakpointTablet: 'max-width: 800px',
+  breakpointMobile: 'max-width: 400px',
 
   ...COLORS,
 

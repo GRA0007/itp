@@ -6,4 +6,29 @@ export const Wrapper = styled.footer`
   display: flex;
   align-items: center;
   padding: .7em 1em;
+
+  @media (${props => props.theme.breakpointTablet}) {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .8em;
+  }
+  @media (${props => props.theme.breakpointMobile}) {
+    align-items: stretch;
+    
+    select {
+      width: 100%;
+    }
+  }
+`
+
+export const Links = styled.div`
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: .8em 1.5em;
+  flex-wrap: wrap;
+
+  @media (${props => props.theme.breakpointTablet}) {
+    align-self: stretch;
+  }
 `
