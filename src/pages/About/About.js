@@ -23,6 +23,7 @@ const About = () => {
         <p>You are correct, you don't have to look far to find many online toki pona dictionaries. However, this will be more than just that.</p>
         <p>I plan to include information here from many different sources, including sitelen pona (the glyph writing system), and even <a href="https://commons.wikimedia.org/wiki/File:Sitelen_sitelen_contract.jpg" target="_blank" rel="noreferrer nofollow">sitelen sitelen</a> eventually. I will also provide a service that makes it easy to memorise all the words and glyphs in toki pona, using spaced repetition.</p>
         <p>ilo toki pona is a large project that I want to build and maintain, and it's also a community project. I want your input on the content, so if you see something that could be improved, <a href="https://github.com/GRA0007/itp/issues/new/choose" target="_blank" rel="noreferrer nofollow">let me know</a>!</p>
+        <p>ilo toki pona is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="noreferrer nofollow">CC BY-NC-SA 3.0</a>, with content from the language of toki pona created by Sonja Lang.</p>
 
         <H as="h2">How can I help?</H>
         <p>If you speak a language other than English, and you want to help translate ilo toki pona, <a href="mailto:ben@bengrant.dev?subject=itp%20translator">contact me</a>!</p>

@@ -1,6 +1,7 @@
 {
   "name": "itp",
   "version": "0.0.1",
+  "license": "CC BY-NC-SA 3.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.0",
