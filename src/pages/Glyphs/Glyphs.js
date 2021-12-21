@@ -73,16 +73,16 @@ const Glyphs = () => {
         {useMemo(() =>
           Array.isArray(list) && list.filter(d => {
             if (!q || q === '') return true
-            if (list.some(l => l.toLocaleLowerCase() === q.toLocaleLowerCase())) {
-              return d.toLocaleLowerCase() === q.toLocaleLowerCase()
+            if (list.some(l => l.glyph.toLocaleLowerCase() === q.toLocaleLowerCase())) {
+              return d.glyph.toLocaleLowerCase() === q.toLocaleLowerCase()
             }
-            return d.toLocaleLowerCase().includes(q.toLocaleLowerCase())
+            return d.glyph.toLocaleLowerCase().includes(q.toLocaleLowerCase())
           }).map(d =>
             <Glyph
               key={d}
               search={q}
-              word={d}
               showLabel={options.showLabels}
+              {...d}
             />
           ),
           [q, options, list],

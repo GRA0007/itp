@@ -1,123 +1,485 @@
 {
+  "definitionSeparator": ", ",
   "list": [
-    "a",
-    "akesi",
-    "ala",
-    "alasa",
-    "ale",
-    "anpa",
-    "ante",
-    "anu",
-    "awen",
-    "e",
-    "en",
-    "esun",
-    "ijo",
-    "ike",
-    "ilo",
-    "insa",
-    "jaki",
-    "jan",
-    "jelo",
-    "jo",
-    "kala",
-    "kalama",
-    "kama",
-    "kasi",
-    "ken",
-    "kepeken",
-    "kili",
-    "kiwen",
-    "ko",
-    "kon",
-    "kule",
-    "kulupu",
-    "kute",
-    "la",
-    "lape",
-    "laso",
-    "lawa",
-    "len",
-    "lete",
-    "li",
-    "lili",
-    "linja",
-    "lipu",
-    "loje",
-    "lon",
-    "luka",
-    "lukin",
-    "lupa",
-    "ma",
-    "mama",
-    "mani",
-    "meli",
-    "mi",
-    "mije",
-    "moku",
-    "moli",
-    "monsi",
-    "mu",
-    "mun",
-    "musi",
-    "mute",
-    "nanpa",
-    "nasa",
-    "nasin",
-    "nena",
-    "ni",
-    "nimi",
-    "noka",
-    "o",
-    "olin",
-    "ona",
-    "open",
-    "pakala",
-    "pali",
-    "palisa",
-    "pan",
-    "pana",
-    "pi",
-    "pilin",
-    "pimeja",
-    "pini",
-    "pipi",
-    "poka",
-    "poki",
-    "pona",
-    "pu",
-    "sama",
-    "seli",
-    "selo",
-    "seme",
-    "sewi",
-    "sijelo",
-    "sike",
-    "sin",
-    "sinpin",
-    "sitelen",
-    "sona",
-    "soweli",
-    "suli",
-    "suno",
-    "supa",
-    "suwi",
-    "tan",
-    "taso",
-    "tawa",
-    "telo",
-    "tenpo",
-    "toki",
-    "tomo",
-    "tu",
-    "unpa",
-    "uta",
-    "utala",
-    "walo",
-    "wan",
-    "waso",
-    "wawa",
-    "weka",
-    "wile"
+    {
+      "glyph": "a",
+      "set": "pu"
+    },
+    {
+      "glyph": "akesi",
+      "set": "pu"
+    },
+    {
+      "glyph": "ala",
+      "set": "pu"
+    },
+    {
+      "glyph": "alasa",
+      "set": "pu"
+    },
+    {
+      "glyph": ["ale", "ali"],
+      "set": "pu"
+    },
+    {
+      "glyph": "anpa",
+      "set": "pu"
+    },
+    {
+      "glyph": "ante",
+      "set": "pu"
+    },
+    {
+      "glyph": "anu",
+      "set": "pu"
+    },
+    {
+      "glyph": "awen",
+      "set": "pu"
+    },
+    {
+      "glyph": "e",
+      "set": "pu"
+    },
+    {
+      "glyph": "en",
+      "set": "pu"
+    },
+    {
+      "glyph": "esun",
+      "set": "pu"
+    },
+    {
+      "glyph": "ijo",
+      "set": "pu"
+    },
+    {
+      "glyph": "ike",
+      "set": "pu"
+    },
+    {
+      "glyph": "ilo",
+      "set": "pu"
+    },
+    {
+      "glyph": "insa",
+      "set": "pu"
+    },
+    {
+      "glyph": "jaki",
+      "set": "pu"
+    },
+    {
+      "glyph": "jan",
+      "set": "pu"
+    },
+    {
+      "glyph": "jelo",
+      "set": "pu"
+    },
+    {
+      "glyph": "jo",
+      "set": "pu"
+    },
+    {
+      "glyph": "kala",
+      "set": "pu"
+    },
+    {
+      "glyph": "kalama",
+      "set": "pu"
+    },
+    {
+      "glyph": "kama",
+      "set": "pu"
+    },
+    {
+      "glyph": "kasi",
+      "set": "pu"
+    },
+    {
+      "glyph": "ken",
+      "set": "pu"
+    },
+    {
+      "glyph": "kepeken",
+      "set": "pu"
+    },
+    {
+      "glyph": "kili",
+      "set": "pu"
+    },
+    {
+      "glyph": "kiwen",
+      "set": "pu"
+    },
+    {
+      "glyph": "ko",
+      "set": "pu"
+    },
+    {
+      "glyph": "kon",
+      "set": "pu"
+    },
+    {
+      "glyph": "kule",
+      "set": "pu"
+    },
+    {
+      "glyph": "kulupu",
+      "set": "pu"
+    },
+    {
+      "glyph": "kute",
+      "set": "pu"
+    },
+    {
+      "glyph": "la",
+      "set": "pu"
+    },
+    {
+      "glyph": "lape",
+      "set": "pu"
+    },
+    {
+      "glyph": "laso",
+      "set": "pu"
+    },
+    {
+      "glyph": "lawa",
+      "set": "pu"
+    },
+    {
+      "glyph": "len",
+      "set": "pu"
+    },
+    {
+      "glyph": "lete",
+      "set": "pu"
+    },
+    {
+      "glyph": "li",
+      "set": "pu"
+    },
+    {
+      "glyph": "lili",
+      "set": "pu"
+    },
+    {
+      "glyph": "linja",
+      "set": "pu"
+    },
+    {
+      "glyph": "lipu",
+      "set": "pu"
+    },
+    {
+      "glyph": "loje",
+      "set": "pu"
+    },
+    {
+      "glyph": "lon",
+      "set": "pu"
+    },
+    {
+      "glyph": "luka",
+      "set": "pu"
+    },
+    {
+      "glyph": ["lukin", "oko"],
+      "set": "pu"
+    },
+    {
+      "glyph": "lupa",
+      "set": "pu"
+    },
+    {
+      "glyph": "ma",
+      "set": "pu"
+    },
+    {
+      "glyph": "mama",
+      "set": "pu"
+    },
+    {
+      "glyph": "mani",
+      "set": "pu"
+    },
+    {
+      "glyph": "meli",
+      "set": "pu"
+    },
+    {
+      "glyph": "mi",
+      "set": "pu"
+    },
+    {
+      "glyph": "mije",
+      "set": "pu"
+    },
+    {
+      "glyph": "moku",
+      "set": "pu"
+    },
+    {
+      "glyph": "moli",
+      "set": "pu"
+    },
+    {
+      "glyph": "monsi",
+      "set": "pu"
+    },
+    {
+      "glyph": "mu",
+      "set": "pu"
+    },
+    {
+      "glyph": "mun",
+      "set": "pu"
+    },
+    {
+      "glyph": "musi",
+      "set": "pu"
+    },
+    {
+      "glyph": "mute",
+      "set": "pu"
+    },
+    {
+      "glyph": "nanpa",
+      "set": "pu"
+    },
+    {
+      "glyph": "nasa",
+      "set": "pu"
+    },
+    {
+      "glyph": "nasin",
+      "set": "pu"
+    },
+    {
+      "glyph": "nena",
+      "set": "pu"
+    },
+    {
+      "glyph": "ni",
+      "set": "pu"
+    },
+    {
+      "glyph": "nimi",
+      "set": "pu"
+    },
+    {
+      "glyph": "noka",
+      "set": "pu"
+    },
+    {
+      "glyph": "o",
+      "set": "pu"
+    },
+    {
+      "glyph": "olin",
+      "set": "pu"
+    },
+    {
+      "glyph": "ona",
+      "set": "pu"
+    },
+    {
+      "glyph": "open",
+      "set": "pu"
+    },
+    {
+      "glyph": "pakala",
+      "set": "pu"
+    },
+    {
+      "glyph": "pali",
+      "set": "pu"
+    },
+    {
+      "glyph": "palisa",
+      "set": "pu"
+    },
+    {
+      "glyph": "pan",
+      "set": "pu"
+    },
+    {
+      "glyph": "pana",
+      "set": "pu"
+    },
+    {
+      "glyph": "pi",
+      "set": "pu"
+    },
+    {
+      "glyph": "pilin",
+      "set": "pu"
+    },
+    {
+      "glyph": "pimeja",
+      "set": "pu"
+    },
+    {
+      "glyph": "pini",
+      "set": "pu"
+    },
+    {
+      "glyph": "pipi",
+      "set": "pu"
+    },
+    {
+      "glyph": "poka",
+      "set": "pu"
+    },
+    {
+      "glyph": "poki",
+      "set": "pu"
+    },
+    {
+      "glyph": "pona",
+      "set": "pu"
+    },
+    {
+      "glyph": "pu",
+      "set": "pu"
+    },
+    {
+      "glyph": "sama",
+      "set": "pu"
+    },
+    {
+      "glyph": "seli",
+      "set": "pu"
+    },
+    {
+      "glyph": "selo",
+      "set": "pu"
+    },
+    {
+      "glyph": "seme",
+      "set": "pu"
+    },
+    {
+      "glyph": "sewi",
+      "set": "pu"
+    },
+    {
+      "glyph": "sijelo",
+      "set": "pu"
+    },
+    {
+      "glyph": "sike",
+      "set": "pu"
+    },
+    {
+      "glyph": ["sin", "namako"],
+      "set": "pu"
+    },
+    {
+      "glyph": "sina",
+      "set": "pu"
+    },
+    {
+      "glyph": "sinpin",
+      "set": "pu"
+    },
+    {
+      "glyph": "sitelen",
+      "set": "pu"
+    },
+    {
+      "glyph": "sona",
+      "set": "pu"
+    },
+    {
+      "glyph": "soweli",
+      "set": "pu"
+    },
+    {
+      "glyph": "suli",
+      "set": "pu"
+    },
+    {
+      "glyph": "suno",
+      "set": "pu"
+    },
+    {
+      "glyph": "supa",
+      "set": "pu"
+    },
+    {
+      "glyph": "suwi",
+      "set": "pu"
+    },
+    {
+      "glyph": "tan",
+      "set": "pu"
+    },
+    {
+      "glyph": "taso",
+      "set": "pu"
+    },
+    {
+      "glyph": "tawa",
+      "set": "pu"
+    },
+    {
+      "glyph": "telo",
+      "set": "pu"
+    },
+    {
+      "glyph": "tenpo",
+      "set": "pu"
+    },
+    {
+      "glyph": "toki",
+      "set": "pu"
+    },
+    {
+      "glyph": "tomo",
+      "set": "pu"
+    },
+    {
+      "glyph": "tu",
+      "set": "pu"
+    },
+    {
+      "glyph": "unpa",
+      "set": "pu"
+    },
+    {
+      "glyph": "uta",
+      "set": "pu"
+    },
+    {
+      "glyph": "utala",
+      "set": "pu"
+    },
+    {
+      "glyph": "walo",
+      "set": "pu"
+    },
+    {
+      "glyph": "wan",
+      "set": "pu"
+    },
+    {
+      "glyph": "waso",
+      "set": "pu"
+    },
+    {
+      "glyph": "wawa",
+      "set": "pu"
+    },
+    {
+      "glyph": "weka",
+      "set": "pu"
+    },
+    {
+      "glyph": "wile",
+      "set": "pu"
+    }
   ]
 }

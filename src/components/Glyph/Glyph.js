@@ -9,19 +9,19 @@ import {
 } from './glyphStyle'
 
 const Glyph = ({
-  word,
+  glyph,
   showLabel = true,
   search,
 }) => (
   <Wrapper>
     <Container
       as={Link}
-      to="/sitelenpona"//to={`/sitelenpona/${word}`}
+      to="/sitelenpona"//to={`/sitelenpona/${glyph}`}
     >
-      {word}
+      {Array.isArray(glyph) ? glyph[0] : glyph}
     </Container>
 
-    {showLabel && <Label><Highlight text={Array.isArray(word) ? word.join(', ') : word} search={search} /></Label>}
+    {showLabel && <Label><Highlight text={Array.isArray(glyph) ? glyph.join(', ') : glyph} search={search} /></Label>}
   </Wrapper>
 )
 
