@@ -9,9 +9,10 @@ import {
   SearchWrapper,
   SwitchField,
   TextField,
+  Wrapper,
 } from 'components'
 
-import { GlyphWrapper, Wrapper } from './glyphsStyle'
+import { GlyphWrapper } from './glyphsStyle'
 
 const Glyphs = () => {
   const { t } = useTranslation(['common', 'glyphs', 'glyphList'])
@@ -27,7 +28,7 @@ const Glyphs = () => {
 
   return (
     <Main>
-      <Wrapper>
+      <Wrapper flex>
         <SearchWrapper>
           <TextField
             placeholder={t('common:search.placeholder')}

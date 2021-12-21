@@ -9,9 +9,8 @@ import {
   SearchWrapper,
   SwitchField,
   TextField,
+  Wrapper,
 } from 'components'
-
-import { Wrapper } from './dictionaryStyle'
 
 const compare = (a, b) => {
   if (Array.isArray(a)) {
@@ -41,7 +40,7 @@ const Dictionary = () => {
 
   return (
     <Main>
-      <Wrapper>
+      <Wrapper flex>
         <SearchWrapper>
           <TextField
             placeholder={t('common:search.placeholder')}

@@ -11,6 +11,7 @@ const COLORS = {
 }
 
 const theme = isDark => ({
+  columnWidth: '800px',
   breakpointTablet: 'max-width: 800px',
   breakpointMobile: 'max-width: 400px',
 

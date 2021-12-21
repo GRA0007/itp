@@ -26,7 +26,10 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
 
-  useEffect(() => setIsMenuOpen(false), [location])
+  useEffect(() => {
+    setIsMenuOpen(false)
+    window.scrollTo(0, 0)
+  }, [location])
   
   return (
     <Wrapper className={isMenuOpen ? 'open' : ''}>

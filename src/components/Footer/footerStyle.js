@@ -5,7 +5,7 @@ export const Wrapper = styled.footer`
   color: ${props => props.theme.secondary};
   display: flex;
   align-items: center;
-  padding: .7em 1em;
+  padding: .7em 1.5em;
 
   @media (${props => props.theme.breakpointTablet}) {
     flex-direction: column;
@@ -14,6 +14,7 @@ export const Wrapper = styled.footer`
   }
   @media (${props => props.theme.breakpointMobile}) {
     align-items: stretch;
+    padding: 1em 1.5em 1.5em;
     
     select {
       width: 100%;
