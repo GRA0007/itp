@@ -13,6 +13,7 @@ export { default as Glyph } from './Glyph/Glyph'
 export { default as Highlight } from './Highlight/Highlight'
 export { default as OptionsPanel } from './OptionsPanel/OptionsPanel'
 export { default as SearchWrapper } from './SearchWrapper/SearchWrapper'
+export { default as ScrollToTop } from './ScrollToTop/ScrollToTop'
 
 export { default as Heading } from './Heading/Heading'
 export { default as Wrapper } from './Wrapper/Wrapper'

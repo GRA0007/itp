@@ -2,5 +2,9 @@
   "options": {
     "showExamples": "Show examples",
     "showNonEssentialWords": "Show non-essential words (coming soon)"
+  },
+  "definition": {
+    "info": "Info",
+    "listen": "Listen"
   }
 }

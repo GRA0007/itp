@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Lexend;
+  src: url('fonts/lexend-variable.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: linja-pona;
+  src: url('/fonts/linja-pona-4.9.otf') format('opentype');
+}

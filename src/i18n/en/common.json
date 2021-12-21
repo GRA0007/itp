@@ -9,7 +9,8 @@
       "resources": "Resources"
     },
     "menu": "Menu",
-    "login_signup": "Login or sign up"
+    "login_signup": "Login or sign up",
+    "scroll_to_top": "Scroll to top"
   },
   "footer": {
     "about": "About",

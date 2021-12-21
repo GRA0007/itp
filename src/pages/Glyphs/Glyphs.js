@@ -1,11 +1,14 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { has, compare } from 'utils'
+
 import {
   Button,
   Glyph,
   Main,
   OptionsPanel,
+  ScrollToTop,
   SearchWrapper,
   SwitchField,
   TextField,
@@ -74,10 +77,10 @@ const Glyphs = () => {
         {useMemo(() =>
           Array.isArray(list) && list.filter(d => {
             if (!q || q === '') return true
-            if (list.some(l => l.glyph.toLocaleLowerCase() === q.toLocaleLowerCase())) {
-              return d.glyph.toLocaleLowerCase() === q.toLocaleLowerCase()
+            if (list.some(l => compare(l.glyph, q))) {
+              return compare(d.glyph, q)
             }
-            return d.glyph.toLocaleLowerCase().includes(q.toLocaleLowerCase())
+            return has(d.glyph, q)
           }).map(d =>
             <Glyph
               key={d}
@@ -89,6 +92,8 @@ const Glyphs = () => {
           [q, options, list],
         )}
       </GlyphWrapper>
+
+      <ScrollToTop />
     </Main>
   )
 }

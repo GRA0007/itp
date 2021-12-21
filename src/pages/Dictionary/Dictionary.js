@@ -1,31 +1,19 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { has, compare } from 'utils'
+
 import {
   Button,
   Definition,
   Main,
   OptionsPanel,
+  ScrollToTop,
   SearchWrapper,
   SwitchField,
   TextField,
   Wrapper,
 } from 'components'
-
-const compare = (a, b) => {
-  if (Array.isArray(a)) {
-    return a.some(x => x.toLocaleLowerCase() === b.toLocaleLowerCase())
-  } else {
-    return a.toLocaleLowerCase() === b.toLocaleLowerCase()
-  }
-}
-const has = (a, b) => {
-  if (Array.isArray(a)) {
-    return a.some(x => x.toLocaleLowerCase().includes(b.toLocaleLowerCase()))
-  } else {
-    return a.toLocaleLowerCase().includes(b.toLocaleLowerCase())
-  }
-}
 
 const Dictionary = () => {
   const [q, setQ] = useState('')
@@ -91,6 +79,8 @@ const Dictionary = () => {
           ),
           [q, options, list],
         )}
+
+        <ScrollToTop />
       </Wrapper>
     </Main>
   )

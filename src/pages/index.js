@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Global, ThemeProvider } from '@emotion/react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 
 import theme, { globalStyles } from 'theme'
 import { Footer, Navigation } from 'components'
@@ -27,6 +27,7 @@ const Pages = () => {
 
       <Routes>
         <Route path="/" element={<Dictionary />} />
+        <Route path="/ilonimi" element={<Navigate to="/" replace={true} />} />
         <Route path="/sitelenpona" element={<Glyphs />} />
 
         <Route path="/about" element={<About />} />

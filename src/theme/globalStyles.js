@@ -1,10 +1,6 @@
 import { css } from '@emotion/react'
 
 const globalStyles = theme => css`
-  @font-face {
-    font-family: linja-pona;
-    src: url('/fonts/linja-pona-4.9.otf') format('opentype');
-  }
   body {
     margin: 0;
     font-family: 'Lexend', sans-serif;

@@ -22,11 +22,11 @@ export const Wrapper = styled.button`
     box-shadow: 0 0 0 0 var(--border-color);
   }
 
-  ${props => props.secondary && `
-    --border-color: ${props.theme.secondary};
-    color: ${props.theme.secondary};
-    background: ${props.theme.background};
-  `}
+  &[data-secondary=true] {
+    --border-color: ${props => props.theme.secondary};
+    color: ${props => props.theme.secondary};
+    background: ${props => props.theme.background};
+  }
 
   ${props => props.inline && `
     transform: translateY(0);
@@ -44,9 +44,9 @@ export const Wrapper = styled.button`
     --border-color: ${props => props.theme.gray};
     cursor: default;
 
-    ${props => props.secondary && `
-      background: ${props.theme.background};
-      color: ${props.theme.gray};
-    `}
+    &[data-secondary=true] {
+      background: ${props => props.theme.background};
+      color: ${props => props.theme.gray};
+    }
   }
 `
