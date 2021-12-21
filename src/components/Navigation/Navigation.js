@@ -44,6 +44,7 @@ const Navigation = () => {
       <Items>
         <NavItem
           to="/"
+          active={location.pathname.startsWith('/ilonimi')}
           icon={<TokiPonaIcon />}
           label={t('navigation.pages.dictionary')}
         />

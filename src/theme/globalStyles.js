@@ -3,7 +3,7 @@ import { css } from '@emotion/react'
 const globalStyles = theme => css`
   body {
     margin: 0;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     background: ${theme.background};
     color: ${theme.text};
     color-scheme: light dark;

@@ -1,7 +1,14 @@
 @font-face {
-  font-family: Lexend;
-  src: url('fonts/lexend-variable.ttf') format('truetype');
+  font-family: 'Public Sans';
+  src: url('/fonts/publicsans-variable.ttf') format('truetype');
   font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Public Sans';
+  src: url('/fonts/publicsans-variable-italic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
 }
 
 @font-face {

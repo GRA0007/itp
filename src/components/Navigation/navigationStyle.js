@@ -15,7 +15,7 @@ export const Wrapper = styled.nav`
 
 export const Title = styled.span`
   display: block;
-  font-weight: 600;
+  font-weight: 750;
   font-size: 1.2em;
   user-select: none;
   margin: 0 .5em;

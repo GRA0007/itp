@@ -17,3 +17,4 @@ export { default as ScrollToTop } from './ScrollToTop/ScrollToTop'
 
 export { default as Heading } from './Heading/Heading'
 export { default as Wrapper } from './Wrapper/Wrapper'
+export { default as Divider } from './Divider/Divider'

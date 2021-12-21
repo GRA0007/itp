@@ -10,6 +10,10 @@ const Heading = styled.h1`
     font-size: 1.4em;
     font-weight: 600;
   `}
+
+  &[data-inline=true] {
+    margin: 0;
+  }
 `
 
 export default Heading

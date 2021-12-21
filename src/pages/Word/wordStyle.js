@@ -1,27 +1,23 @@
 import styled from '@emotion/styled'
 
-export const Wrapper = styled.div`
-  border: 2px solid ${props => props.theme.gray};
-  background: ${props => props.theme.background};
-  border-radius: 1em;
-  box-sizing: border-box;
-`
-
-export const Header = styled.div`
+export const Title = styled.div`
   display: flex;
   align-items: center;
   gap: .4em;
-  padding: .8em .6em 0 1.5em;
+  font-size: 1.8em;
+
+  h1 {
+    font-weight: 750;
+    font-size: 1.6em;
+    margin: 0;
+  }
 `
 
-export const Content = styled.div`
-  padding: 0 1.5em 1.2em;
-`
-
-export const Word = styled.h2`
+export const IPA = styled.span`
   font-weight: 600;
-  font-size: 1.4em;
-  margin: 0;
+  font-size: 1.5em;
+  display: block;
+  color: ${props => props.theme.strongGray};
 `
 
 export const ListenButton = styled.button`
@@ -36,6 +32,7 @@ export const ListenButton = styled.button`
   height: 1.4em;
   width: 1.4em;
   display: flex;
+  font-size: .9em;
   align-items: center;
   justify-content: center;
 `
@@ -56,8 +53,21 @@ export const Def = styled.span`
   font-weight: 400;
 `
 
-export const Example = styled.span`
-  display: block;
-  margin-left: 2em;
-  color: ${props => props.theme.strongGray};
+export const Example = styled.div`
+  margin: .6em 0;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+  }
+
+  .translation {
+    font-style: italic;
+    color: ${props => props.theme.strongGray};
+  }
+`
+
+export const Etymology = styled.div`
+  margin: .3em 0;
 `
