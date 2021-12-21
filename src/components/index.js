@@ -9,6 +9,7 @@ export { default as Button } from './Button/Button'
 
 export { default as Definition } from './Definition/Definition'
 export { default as Glyph } from './Glyph/Glyph'
+export { default as GlyphButton } from './GlyphButton/GlyphButton'
 
 export { default as Highlight } from './Highlight/Highlight'
 export { default as OptionsPanel } from './OptionsPanel/OptionsPanel'
@@ -18,3 +19,4 @@ export { default as ScrollToTop } from './ScrollToTop/ScrollToTop'
 export { default as Heading } from './Heading/Heading'
 export { default as Wrapper } from './Wrapper/Wrapper'
 export { default as Divider } from './Divider/Divider'
+export { default as ExternalLink } from './ExternalLink/ExternalLink'

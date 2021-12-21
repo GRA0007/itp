@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
 
 import { compare } from 'utils'
+import fontList from 'res/fonts'
 
 import { KalamaIcon } from 'icons'
 
@@ -12,6 +13,7 @@ import {
   Wrapper,
   Divider as Hr,
   Button,
+  GlyphButton,
 } from 'components'
 
 import {
@@ -22,6 +24,7 @@ import {
   IPA,
   ListenButton,
   Etymology,
+  Glyphs,
 } from './wordStyle'
 
 const Word = () => {
@@ -77,7 +80,14 @@ const Word = () => {
           <H as="h2" data-inline>Glyphs</H>
           <Button secondary as={Link} to={`/sitelenpona/${Array.isArray(data.word) ? data.word?.[0] : data.word}`}>See all</Button>
         </div>
-        <span>No glyphs yet...</span>
+        <Glyphs>
+          {fontList.sort(() => .5-Math.random()).filter((_, i) => i < 5).map(font => (
+            <GlyphButton
+              glyph={Array.isArray(data.word) ? data.word?.[0] : data.word}
+              font={font}
+            />
+          ))}
+        </Glyphs>
 
         {data.hasOwnProperty('etymology') && (
           <>

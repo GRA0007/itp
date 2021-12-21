@@ -11,7 +11,56 @@
   font-style: italic;
 }
 
+/* SITELEN PONA */
 @font-face {
   font-family: linja-pona;
-  src: url('/fonts/linja-pona-4.9.otf') format('opentype');
+  src: url('/fonts/sitelen-pona/linja-pona-4.9.otf') format('opentype');
+}
+@font-face {
+  font-family: supa-lape;
+  src: url('/fonts/sitelen-pona/supa-lape.woff') format('woff');
+}
+@font-face {
+  font-family: linja-ante;
+  src: url('/fonts/sitelen-pona/linja-ante.ttf') format('truetype');
+}
+@font-face {
+  font-family: pu-lukin;
+  src: url('/fonts/sitelen-pona/pu-lukin.otf') format('opentype');
+}
+@font-face {
+  font-family: tomo-lipu;
+  src: url('/fonts/sitelen-pona/linjapitomolipu.0.7.ttf') format('truetype');
+}
+@font-face {
+  font-family: linja-pimeja;
+  src: url('/fonts/sitelen-pona/linja-pimeja-1.9.woff') format('woff');
+}
+@font-face {
+  font-family: linja-sike;
+  src: url('/fonts/sitelen-pona/linja-sike-5.otf') format('opentype');
+}
+@font-face {
+  font-family: linja-suwi;
+  src: url('/fonts/sitelen-pona/linjasuwi.otf') format('opentype');
+}
+@font-face {
+  font-family: linja-wawa;
+  src: url('/fonts/sitelen-pona/linjawawa1.21.ttf') format('truetype');
+}
+@font-face {
+  font-family: sitelen-luka-tu-tu;
+  src: url('/fonts/sitelen-pona/sitelen_luka_tu_tu.ttf') format('truetype');
+}
+@font-face {
+  font-family: sitelen-pona-pona;
+  src: url('/fonts/sitelen-pona/sitelen-pona-pona.otf') format('opentype');
+}
+@font-face {
+  font-family: sitelen-sans;
+  src: url('/fonts/sitelen-pona/sitelen-sans-3.otf') format('opentype');
+}
+@font-face {
+  font-family: toki-pona-otf;
+  src: url('/fonts/sitelen-pona/toki-pona-OTF-v2.otf') format('opentype');
 }

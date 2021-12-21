@@ -4,6 +4,7 @@ import {
   Heading as H,
   Main,
   Wrapper,
+  ExternalLink as A,
 } from 'components'
 
 const Privacy = () => {
@@ -23,7 +24,7 @@ const Privacy = () => {
         <p>The Service uses third party services that may collect information used to identify you.</p>
         <p>Links to privacy policies of the third party service providers used by the Service:</p>
         <ul>
-          <li><a href="https://www.google.com/policies/privacy/">Google Play Services</a></li>
+          <li><A href="https://www.google.com/policies/privacy/">Google Play Services</A></li>
         </ul>
 
         <H as="h2">Log Data</H>

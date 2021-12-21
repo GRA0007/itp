@@ -71,3 +71,10 @@ export const Example = styled.div`
 export const Etymology = styled.div`
   margin: .3em 0;
 `
+
+export const Glyphs = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  gap: 1em .8em;
+  margin: 1em 0;
+`
