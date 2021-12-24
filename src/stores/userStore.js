@@ -48,8 +48,11 @@ const useUserStore = create(set => ({
     },
   },
 
-  setPreference: (pref, value, category = 'preferences') => set(produce(state => {
-    state[category]?.[pref] = value
+  setPreference: (pref, category = 'preferences') => set(state => ({
+    [category]: {
+      ...state[category],
+      ...pref,
+    }
   })),
 
   setNote: (word, note, category = 'words') => set(produce(state => {
@@ -66,7 +69,7 @@ const useUserStore = create(set => ({
       if (!state[category].hasOwnProperty(word)) {
         state[category][word] = {}
       }
-      if (!state[category][word].hasOwnProperty(learn)) {
+      if (!state[category][word].hasOwnProperty('learn')) {
         state[category][word].learn = [item]
       } else {
         state[category][word].learn.push(item)

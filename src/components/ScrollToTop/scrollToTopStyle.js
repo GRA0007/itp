@@ -22,9 +22,9 @@ export const Wrapper = styled.div`
 export const Button = styled.button`
   margin: 0;
   font: inherit;
-  color: ${props => props.theme.secondary};
+  color: ${props => props.theme.strongGray};
   padding: 0;
-  border: 2px solid ${props => props.theme.secondary};
+  border: 2px solid ${props => props.theme.strongGray};
   background: ${props => props.theme.background};
   border-radius: 1em;
   box-sizing: border-box;
@@ -35,7 +35,7 @@ export const Button = styled.button`
   justify-content: center;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0 .2rem 0 0 ${props => props.theme.secondary};
+  box-shadow: 0 .2rem 0 0 ${props => props.theme.strongGray};
   transition: transform .15s, box-shadow .15s;
   transform: translateY(0);
 

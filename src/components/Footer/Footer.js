@@ -7,6 +7,7 @@ import {
   Wrapper,
   Links,
 } from './footerStyle'
+import languages from 'i18n/languages'
 
 const Footer = () => {
   const { t, i18n } = useTranslation()
@@ -21,8 +22,7 @@ const Footer = () => {
       <SelectField
         title={t('footer.language')}
         options={{
-          en: 'English',
-          //toki: 'toki pona',
+          ...languages.reduce((list, l) => ({ ...list, [l.code]: l.name }), {}),
           ...process.env.NODE_ENV === 'development' && { cimode: 'Debug' },
         }}
         value={i18n.language}

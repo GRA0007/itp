@@ -1,0 +1,24 @@
+{
+  "headings": {
+    "ipa": "IPA",
+    "definition": "Definition",
+    "examples": "Examples",
+    "glyphs": "Glyphs",
+    "etymology": "Etymology",
+    "sign_language": "Sign Language",
+    "your_learning_progress": "Your Learning Progress",
+    "your_notes": "Your Notes",
+    "words_in_this_glyph": "Words In This Glyph",
+    "meaning": "Meaning",
+    "other_styles": "Other Styles"
+  },
+  "actions": {
+    "see_all": "See all",
+    "visit_page": "Visit the page for {{name}}"
+  },
+  "login_cta": {
+    "heading": "Want To Learn toki pona?",
+    "content": "You can learn the words and glyphs for free on ilo toki pona",
+    "action": "Start learning!"
+  }
+}

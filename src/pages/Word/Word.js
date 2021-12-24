@@ -28,7 +28,7 @@ import {
 } from './wordStyle'
 
 const Word = () => {
-  const { t } = useTranslation(['common', 'dictionary', 'wordList'])
+  const { t } = useTranslation(['common', 'dictionary', 'wordList', 'details'])
   const { word } = useParams()
   const [data, setData] = useState({})
 
@@ -49,9 +49,9 @@ const Word = () => {
             <KalamaIcon />
           </ListenButton>
         </Title>
-        <IPA>{Array.isArray(data.ipa) ? data.ipa?.join(t('wordList:wordSeparator')) : data.ipa}</IPA>
+        <IPA title={t('details:headings.ipa')}>{Array.isArray(data.ipa) ? data.ipa?.join(t('wordList:wordSeparator')) : data.ipa}</IPA>
 
-        <H as="h2">Definition</H>
+        <H as="h2">{t('details:headings.definition')}</H>
         {data.definitions?.map(def => (
           <Fragment key={`${def.category}-${def.definition}`}>
             <Category>{def.category}</Category>
@@ -62,7 +62,7 @@ const Word = () => {
         {data.definitions?.some(d => d.hasOwnProperty('examples') && d.examples.length > 0) && (
           <>
             <Hr />
-            <H as="h2">Examples</H>
+            <H as="h2">{t('details:headings.examples')}</H>
             {data.definitions?.map(def => def.examples?.map(ex =>
               <Example key={`${def.category}-${ex.toki}`}>
                 <span>
@@ -77,12 +77,13 @@ const Word = () => {
         <Hr />
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <H as="h2" data-inline>Glyphs</H>
-          <Button secondary as={Link} to={`/sitelenpona/${Array.isArray(data.word) ? data.word?.[0] : data.word}`}>See all</Button>
+          <H as="h2" data-inline>{t('details:headings.glyphs')}</H>
+          <Button secondary as={Link} to={`/sitelenpona/${Array.isArray(data.word) ? data.word?.[0] : data.word}`}>{t('details:actions.see_all')}</Button>
         </div>
         <Glyphs>
           {useMemo(() => Object.keys(fontList).sort(() => .5-Math.random()).filter((_, i) => i < 5).map(font => (
             <GlyphButton
+              key={font}
               glyph={Array.isArray(data.word) ? data.word?.[0] : data.word}
               font={font}
             />
@@ -92,7 +93,7 @@ const Word = () => {
         {data.hasOwnProperty('etymology') && (
           <>
             <Hr />
-            <H as="h2">Etymology</H>
+            <H as="h2">{t('details:headings.etymology')}</H>
             {(Array.isArray(data.etymology) ? data.etymology : [data.etymology])?.map(source => (
               <Etymology key={JSON.stringify(source)}>
                 {source?.hasOwnProperty('language') ? (

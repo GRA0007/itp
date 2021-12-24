@@ -1,0 +1,29 @@
+{
+  "navigation": {
+    "pages": {
+      "dictionary": "ilo nimi",
+      "glyphs": "sitelen pona",
+      "learn": "kama sona",
+      "reference": "lipu nimi",
+      "resources": "lipu ante"
+    },
+    "menu": "open",
+    "login_signup": "kama insa kulupu",
+    "scroll_to_top": "sewi"
+  },
+  "footer": {
+    "about": "sona",
+    "privacy": "lipu Privacy",
+    "language": "toki"
+  },
+  "search": {
+    "placeholder": "alasa...",
+    "options": "ante"
+  },
+  "controls": {
+    "switch": {
+      "on": "lon",
+      "off": "ala"
+    }
+  }
+}

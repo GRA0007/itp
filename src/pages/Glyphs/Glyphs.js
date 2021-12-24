@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { has, compare } from 'utils'
+import { useUserStore } from 'stores'
 
 import {
   Button,
@@ -21,11 +22,9 @@ const Glyphs = () => {
   const { t } = useTranslation(['common', 'glyphs', 'glyphList'])
   const [q, setQ] = useState('')
   const [showOptions, setShowOptions] = useState(false)
-  const [options, setOptions] = useState({
-    showLabels: true,
-    showCompoundGlyphs: false,
-    showNonEssentialGlyphs: false,
-  })
+
+  const options = useUserStore(state => state.glyphsPrefs)
+  const setOption = useUserStore(state => state.setPreference)
 
   const list = t('glyphList:list', { returnObjects: true })
 
@@ -53,20 +52,20 @@ const Glyphs = () => {
               label={t('glyphs:options.showLabels')}
               id="show-labels"
               value={options.showLabels}
-              onChange={value => setOptions({ ...options, showLabels: value })}
+              onChange={value => setOption({ showLabels: value }, 'glyphsPrefs')}
             />
             <SwitchField
               label={t('glyphs:options.showCompoundGlyphs')}
               id="show-compound"
               value={options.showCompoundGlyphs}
-              onChange={value => setOptions({ ...options, showCompoundGlyphs: value })}
+              onChange={value => setOption({ showCompoundGlyphs: value }, 'glyphsPrefs')}
               disabled
             />
             <SwitchField
               label={t('glyphs:options.showNonEssentialGlyphs')}
               id="show-non-essential"
               value={options.showNonEssentialGlyphs}
-              onChange={value => setOptions({ ...options, showNonEssentialGlyphs: value })}
+              onChange={value => setOption({ showNonEssentialGlyphs: value }, 'glyphsPrefs')}
               disabled
             />
           </OptionsPanel>

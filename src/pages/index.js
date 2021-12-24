@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { Global, ThemeProvider } from '@emotion/react'
 import { Route, Routes, Navigate } from 'react-router-dom'
 
@@ -24,20 +24,22 @@ const Pages = () => {
     <ThemeProvider theme={theme(isDark)}>
       <Global styles={globalStyles} />
 
-      <Navigation />
+      <Suspense fallback={<div style={{textAlign: 'center'}}>loading translations...</div>}>
+        <Navigation />
 
-      <Routes>
-        <Route path="/" element={<Dictionary />} />
-        <Route path="/ilonimi" element={<Navigate to="/" replace={true} />} />
-        <Route path="/ilonimi/:word" element={<Word />} />
-        <Route path="/sitelenpona" element={<Glyphs />} />
+        <Routes>
+          <Route path="/" element={<Dictionary />} />
+          <Route path="/ilonimi" element={<Navigate to="/" replace={true} />} />
+          <Route path="/ilonimi/:word" element={<Word />} />
+          <Route path="/sitelenpona" element={<Glyphs />} />
 
-        <Route path="/about" element={<About />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
 
-      <Footer />
+        <Footer />
+      </Suspense>
     </ThemeProvider>
   )
 }

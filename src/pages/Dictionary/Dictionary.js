@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { has, compare } from 'utils'
+import { useUserStore } from 'stores'
 
 import {
   Button,
@@ -18,10 +19,8 @@ import {
 const Dictionary = () => {
   const [q, setQ] = useState('')
   const [showOptions, setShowOptions] = useState(false)
-  const [options, setOptions] = useState({
-    showExamples: true,
-    showNonEssentialWords: false,
-  })
+  const options = useUserStore(state => state.dictionaryPrefs)
+  const setOption = useUserStore(state => state.setPreference)
   const { t } = useTranslation(['common', 'dictionary', 'wordList'])
 
   const list = t('wordList:list', { returnObjects: true })
@@ -50,13 +49,13 @@ const Dictionary = () => {
               label={t('dictionary:options.showExamples')}
               id="show-examples"
               value={options.showExamples}
-              onChange={value => setOptions({ ...options, showExamples: value })}
+              onChange={value => setOption({ showExamples: value }, 'dictionaryPrefs')}
             />
             <SwitchField
               label={t('dictionary:options.showNonEssentialWords')}
               id="show-non-essential"
               value={options.showNonEssentialWords}
-              onChange={value => setOptions({ ...options, showNonEssentialWords: value })}
+              onChange={value => setOption({ showNonEssentialWords: value }, 'dictionaryPrefs')}
               disabled
             />
           </OptionsPanel>
