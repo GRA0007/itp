@@ -1,4 +1,4 @@
-import { useEffect, useState, Fragment } from 'react'
+import { useEffect, useState, Fragment, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
 
@@ -34,7 +34,7 @@ const Word = () => {
 
   useEffect(() => {
     const list = t('wordList:list', { returnObjects: true })
-    setData(list.find(w => compare(w.word, word)))
+    setData(Array.isArray(list) ? list.find(w => compare(w.word, word)) : {})
   }, [word, t])
 
   return (
@@ -81,12 +81,12 @@ const Word = () => {
           <Button secondary as={Link} to={`/sitelenpona/${Array.isArray(data.word) ? data.word?.[0] : data.word}`}>See all</Button>
         </div>
         <Glyphs>
-          {fontList.sort(() => .5-Math.random()).filter((_, i) => i < 5).map(font => (
+          {useMemo(() => Object.keys(fontList).sort(() => .5-Math.random()).filter((_, i) => i < 5).map(font => (
             <GlyphButton
               glyph={Array.isArray(data.word) ? data.word?.[0] : data.word}
               font={font}
             />
-          ))}
+          )), [data])}
         </Glyphs>
 
         {data.hasOwnProperty('etymology') && (

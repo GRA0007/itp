@@ -25,7 +25,7 @@
         ]
       }],
       "etymology": "Onomatopoeic",
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "akesi",
@@ -52,7 +52,7 @@
         "word": "hagedis",
         "translation": "lizard"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ala",
@@ -112,7 +112,7 @@
         "translation": "no"
       },
       "antonyms": ["ale"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "alasa",
@@ -151,7 +151,7 @@
         "word": "a la chasse",
         "translation": "hunting"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": ["ale", "ali"],
@@ -202,7 +202,7 @@
         "translation": "all"
       },
       "antonyms": ["ala"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "anpa",
@@ -254,7 +254,7 @@
         "translation": "below"
       },
       "antonyms": ["sewi"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ante",
@@ -290,7 +290,7 @@
         "translation": "other, different"
       },
       "antonyms": ["sama"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "anu",
@@ -310,7 +310,7 @@
         "word": "ან",
         "translation": "or"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "awen",
@@ -367,7 +367,7 @@
         "word": "houden",
         "translation": "to keep"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "e",
@@ -376,7 +376,7 @@
         "category": "particle",
         "definition": "(before the direct object)"
       }],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "en",
@@ -390,7 +390,7 @@
         "word": "en",
         "translation": "and"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "esun",
@@ -414,7 +414,7 @@
         "word": "échange",
         "translation": "exchange"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ijo",
@@ -431,7 +431,7 @@
         "word": "io",
         "translation": "something"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ike",
@@ -471,7 +471,7 @@
         "translation": "bad"
       },
       "antonyms": ["pona"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ilo",
@@ -488,7 +488,7 @@
         "word": "ilo",
         "translation": "tool"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "insa",
@@ -519,7 +519,7 @@
           "word": "inside"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "jaki",
@@ -555,7 +555,7 @@
         "language": "English",
         "word": "yucky"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "jan",
@@ -582,7 +582,7 @@
         "word": "人 (jan)",
         "translation": "person"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "jelo",
@@ -595,7 +595,7 @@
         "language": "English",
         "word": "yellow"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "jo",
@@ -612,7 +612,7 @@
         "word": "有 (yǒu)",
         "translation": "to have"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kala",
@@ -629,7 +629,7 @@
         "word": "kala",
         "translation": "fish"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kalama",
@@ -656,7 +656,7 @@
         "word": "galama",
         "translation": "fuss, noise"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kama",
@@ -700,7 +700,7 @@
         }
       ],
       "antonyms": ["tawa"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kasi",
@@ -720,7 +720,7 @@
         "word": "kasvi",
         "translation": "plant"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ken",
@@ -765,7 +765,7 @@
           "word": "can"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kepeken",
@@ -785,7 +785,7 @@
         "word": "gebruiken",
         "translation": "to use"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kili",
@@ -805,7 +805,7 @@
         "translation": "fruit"
       },
       "synonyms": ["soko"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kiwen",
@@ -841,7 +841,7 @@
         "word": "kiven",
         "translation": "stone"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ko",
@@ -855,7 +855,7 @@
         "word": "膏 (gou)",
         "translation": "cream, paste"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kon",
@@ -883,7 +883,7 @@
         "word": "空氣 (kōngqì)",
         "translation": "air"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kule",
@@ -910,7 +910,7 @@
         "word": "couleur",
         "translation": "color"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kulupu",
@@ -939,7 +939,7 @@
           "word": "group"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "kute",
@@ -963,7 +963,7 @@
         "word": "écouter",
         "translation": "to listen"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "la",
@@ -972,7 +972,7 @@
         "category": "particle",
         "definition": "(between the context phrase and the main sentence)"
       }],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lape",
@@ -996,7 +996,7 @@
         "word": "slapen",
         "translation": "to sleep"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "laso",
@@ -1013,7 +1013,7 @@
         "word": "glas",
         "translation": "blue"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lawa",
@@ -1047,7 +1047,7 @@
         "word": "glava",
         "translation": "head"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "len",
@@ -1065,7 +1065,7 @@
         "word": "linge",
         "translation": "clothing"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lete",
@@ -1093,7 +1093,7 @@
         "translation": "cold"
       },
       "antonyms": ["seli"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "li",
@@ -1107,7 +1107,7 @@
         "word": "li",
         "translation": "he"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lili",
@@ -1135,7 +1135,7 @@
         "translation": "small"
       },
       "antonyms": ["suli"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "linja",
@@ -1160,7 +1160,7 @@
         "word": "linja",
         "translation": "line"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lipu",
@@ -1179,7 +1179,7 @@
         "word": "lippu",
         "translation": "flag, ticket"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "loje",
@@ -1193,7 +1193,7 @@
         "word": "rooie",
         "translation": "red"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lon",
@@ -1241,7 +1241,7 @@
         "translation": "at, in, on"
       },
       "antonyms": ["ala"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "luka",
@@ -1261,7 +1261,7 @@
         "word": "ruka",
         "translation": "hand, arm"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": ["lukin", "oko"],
@@ -1294,7 +1294,7 @@
         "translation": "to see, look at"
       },
       "synonyms": ["alasa"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "lupa",
@@ -1313,7 +1313,7 @@
         "translation": "loop, circuit"
       },
       "antonyms": ["nena"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ma",
@@ -1332,7 +1332,7 @@
         "word": "maa",
         "translation": "earth, land"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mama",
@@ -1363,7 +1363,7 @@
         "word": "მამა (mama)",
         "translation": "father"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mani",
@@ -1387,7 +1387,7 @@
           "word": "money"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "meli",
@@ -1410,7 +1410,7 @@
         "word": "meri",
         "translation": "woman, wife"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mi",
@@ -1434,7 +1434,7 @@
           "word": "me"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mije",
@@ -1460,7 +1460,7 @@
         "word": "mies",
         "translation": "man"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "moku",
@@ -1502,7 +1502,7 @@
         "word": "もぐもぐ (mogu-mogu)",
         "translation": "munching"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "moli",
@@ -1533,7 +1533,7 @@
         "word": "mourir",
         "translation": "to die"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "monsi",
@@ -1556,7 +1556,7 @@
         "word": "mon tchu",
         "translation": "my butt"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mu",
@@ -1566,7 +1566,7 @@
         "definition": "(animal noise or communication)"
       }],
       "etymology": "Onomatopoeic (cow or cat)",
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mun",
@@ -1593,7 +1593,7 @@
         "language": "English",
         "word": "moon"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "musi",
@@ -1631,7 +1631,7 @@
         "word": "amuzi",
         "translation": "to have fun"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "mute",
@@ -1658,7 +1658,7 @@
         "word": "multe",
         "translation": "many, a lot"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "nanpa",
@@ -1694,7 +1694,7 @@
           "word": "number"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "nasa",
@@ -1718,7 +1718,7 @@
         "word": "nasau",
         "translation": "stupid"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "nasin",
@@ -1736,7 +1736,7 @@
         "word": "način",
         "translation": "way, method"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "nena",
@@ -1756,7 +1756,7 @@
         "translation": "nose"
       },
       "antonyms": ["lupa"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ni",
@@ -1776,7 +1776,7 @@
         "word": "呢 (ne, ni, nei)",
         "translation": "this"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "nimi",
@@ -1799,7 +1799,7 @@
         "word": "nimi",
         "translation": "name"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "noka",
@@ -1816,7 +1816,7 @@
         "word": "noga",
         "translation": "foot, leg"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "o",
@@ -1845,7 +1845,7 @@
           "word": "oh"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "olin",
@@ -1865,7 +1865,7 @@
         "word": "volim",
         "translation": "I love, I like"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "ona",
@@ -1885,7 +1885,7 @@
         "word": "ona",
         "translation": "she"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "open",
@@ -1902,7 +1902,7 @@
         "language": "English",
         "word": "open"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pakala",
@@ -1945,7 +1945,7 @@
           "word": "bugger up"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pali",
@@ -1978,7 +1978,7 @@
         "word": "fari",
         "translation": "to do, make"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "palisa",
@@ -1995,7 +1995,7 @@
         "word": "pȁlica",
         "translation": "rod, cane"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pan",
@@ -2040,7 +2040,7 @@
           "notes": "bread"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pana",
@@ -2064,7 +2064,7 @@
         "word": "panna",
         "translation": "put, set, place"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pi",
@@ -2084,7 +2084,7 @@
           "word": "belong"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pilin",
@@ -2116,7 +2116,7 @@
           "word": "feeling"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pimeja",
@@ -2146,7 +2146,7 @@
         "word": "pimeä",
         "translation": "dark"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pini",
@@ -2195,7 +2195,7 @@
           "word": "finish"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pipi",
@@ -2209,7 +2209,7 @@
         "word": "bibitte",
         "translation": "bug"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "poka",
@@ -2235,7 +2235,7 @@
         "word": "boka",
         "translation": "side, flank"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "poki",
@@ -2258,7 +2258,7 @@
           "word": "box"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pona",
@@ -2303,7 +2303,7 @@
         "translation": "good"
       },
       "antonyms": ["ike"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "pu",
@@ -2332,7 +2332,7 @@
         "language": "English",
         "word": "book"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sama",
@@ -2371,7 +2371,7 @@
         }
       ],
       "antonyms": ["ante"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "seli",
@@ -2408,7 +2408,7 @@
         "translation": "hot"
       },
       "antonyms": ["lete"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "selo",
@@ -2427,7 +2427,7 @@
         "word": "ŝelo",
         "translation": "skin"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "seme",
@@ -2451,7 +2451,7 @@
         "word": "什麼 (shénme)",
         "translation": "what"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sewi",
@@ -2481,7 +2481,7 @@
         "translation": "upwards"
       },
       "antonyms": ["anpa"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sijelo",
@@ -2499,7 +2499,7 @@
         "word": "tijȇlo",
         "translation": "body"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sike",
@@ -2527,7 +2527,7 @@
         "language": "English",
         "word": "circle"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": ["sin", "namako"],
@@ -2550,7 +2550,7 @@
         "word": "新 (xīn)",
         "translation": "new, fresh"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sina",
@@ -2570,7 +2570,7 @@
         "word": "sinä",
         "translation": "you"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sinpin",
@@ -2595,7 +2595,7 @@
         "word": "前邊 (cin, bin)",
         "translation": "in front"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sitelen",
@@ -2622,7 +2622,7 @@
         "word": "schilderen",
         "translation": "to paint"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "sona",
@@ -2653,7 +2653,7 @@
         "word": "ცოდნა (codna)",
         "translation": "knowledge"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "soweli",
@@ -2672,7 +2672,7 @@
         "word": "ცხოველი (cxoveli)",
         "translation": "animal"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "suli",
@@ -2701,7 +2701,7 @@
         "word": "suuri",
         "translation": "big"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "suno",
@@ -2720,7 +2720,7 @@
         "word": "suno",
         "translation": "sun"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "supa",
@@ -2748,7 +2748,7 @@
           "translation": "surface"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "suwi",
@@ -2782,7 +2782,7 @@
           "word": "sweet"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "tan",
@@ -2805,7 +2805,7 @@
         "word": "從 (cung)",
         "translation": "from"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "taso",
@@ -2831,7 +2831,7 @@
           "word": "that's all"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "tawa",
@@ -2869,7 +2869,7 @@
         "word": "towards"
       },
       "antonyms": ["kama"],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "telo",
@@ -2899,7 +2899,7 @@
         "word": "de l'eau",
         "translation": "some water"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "tenpo",
@@ -2918,7 +2918,7 @@
         "word": "tempo",
         "translation": "time"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "toki",
@@ -2955,7 +2955,7 @@
           "word": "talk"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "tomo",
@@ -2979,7 +2979,7 @@
         "word": "domo",
         "translation": "house"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "tu",
@@ -3012,7 +3012,7 @@
           "translation": "two"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "unpa",
@@ -3037,7 +3037,7 @@
           "definition": "erotic, sexual"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "uta",
@@ -3061,7 +3061,7 @@
         "word": "ústa",
         "translation": "mouth"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "utala",
@@ -3091,7 +3091,7 @@
         "word": "ùdarati",
         "translation": "to hit, strike"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "walo",
@@ -3111,7 +3111,7 @@
         "word": "valkoinen",
         "translation": "white"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "wan",
@@ -3144,7 +3144,7 @@
         "language": "English",
         "word": "one"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "waso",
@@ -3162,7 +3162,7 @@
         "word": "oiseau",
         "translation": "bird"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "wawa",
@@ -3195,7 +3195,7 @@
         "word": "vahva",
         "translation": "strong"
       },
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "weka",
@@ -3232,7 +3232,7 @@
           "word": "away"
         }
       ],
-      "set": "pu"
+      "tags": ["pu"]
     },
     {
       "word": "wile",
@@ -3263,7 +3263,7 @@
         "word": "willen",
         "translation": "to want"
       },
-      "set": "pu"
+      "tags": ["pu"]
     }
   ]
 }

@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 import fontList from 'res/fonts'
 
 import {
@@ -8,14 +6,17 @@ import {
 
 const GlyphButton = ({
   glyph,
-  font = fontList[0],
+  font = Object.keys(fontList)[0],
 }) => (
   <Container
-    as={Link}
-    to="/sitelenpona"//to={`/sitelenpona/${glyph}`}
+    href={fontList[font].source}
+    target="_blank"
+    rel="noreferrer nofollow"
     data-font={font}
+    title={`Visit the page for ${fontList[font].name}`}
   >
-    {Array.isArray(glyph) ? glyph[0] : glyph}
+    <span>{Array.isArray(glyph) ? glyph[0] : glyph}</span>
+    <label>{fontList[font].name}</label>
   </Container>
 )
 
