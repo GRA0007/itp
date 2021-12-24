@@ -15,7 +15,7 @@ const GlyphButton = ({
     data-font={font}
     title={`Visit the page for ${fontList[font].name}`}
   >
-    <span>{Array.isArray(glyph) ? glyph[0] : glyph}</span>
+    <span aria-hidden="true">{Array.isArray(glyph) ? glyph[0] : glyph}</span>
     <label>{fontList[font].name}</label>
   </Container>
 )
