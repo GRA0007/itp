@@ -3,7 +3,9 @@ import { Global, ThemeProvider } from '@emotion/react'
 import { Route, Routes, Navigate } from 'react-router-dom'
 
 import theme, { globalStyles } from 'theme'
-import { Footer, Navigation } from 'components'
+import { Footer, Main, Navigation } from 'components'
+import NavigationFallback from 'components/Navigation/Navigation.fallback'
+import FooterFallback from 'components/Footer/Footer.fallback'
 
 import Dictionary from './Dictionary/Dictionary'
 import Glyphs from './Glyphs/Glyphs'
@@ -25,9 +27,9 @@ const Pages = () => {
     <ThemeProvider theme={theme(isDark)}>
       <Global styles={globalStyles} />
 
-      <Suspense fallback={<div style={{textAlign: 'center'}}>loading translations...</div>}>
-        <Navigation />
+      <Suspense fallback={<NavigationFallback />}><Navigation /></Suspense>
 
+      <Suspense fallback={<Main center>loading...</Main>}>
         <Routes>
           <Route path="/" element={<Dictionary />} />
           <Route path="/ilonimi" element={<Navigate to="/" replace={true} />} />
@@ -39,9 +41,9 @@ const Pages = () => {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
-
-        <Footer />
       </Suspense>
+
+      <Suspense fallback={<FooterFallback />}><Footer /></Suspense>
     </ThemeProvider>
   )
 }
