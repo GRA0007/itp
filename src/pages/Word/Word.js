@@ -25,6 +25,7 @@ import {
   ListenButton,
   Etymology,
   Glyphs,
+  Buttons,
 } from './wordStyle'
 
 const Word = () => {
@@ -101,6 +102,47 @@ const Word = () => {
                 ) : source}
               </Etymology>
             ))}
+          </>
+        )}
+
+        {data.hasOwnProperty('synonyms') && (
+          <>
+            <Hr />
+            <H as="h2">{t('details:headings.synonyms')}</H>
+            <Buttons>
+              {data.synonyms?.map(synonym => (
+                <Button
+                  secondary
+                  as={Link}
+                  to={`/ilonimi/${synonym}`}
+                >{synonym}</Button>
+              ))}
+            </Buttons>
+          </>
+        )}
+
+        {data.hasOwnProperty('antonyms') && (
+          <>
+            <Hr />
+            <H as="h2">{t('details:headings.antonyms')}</H>
+            <Buttons>
+              {data.antonyms?.map(antonym => (
+                <Button
+                  secondary
+                  as={Link}
+                  to={`/ilonimi/${antonym}`}
+                >{antonym}</Button>
+              ))}
+            </Buttons>
+          </>
+        )}
+
+        {data.hasOwnProperty('sign') && (
+          <>
+            <Hr />
+            <H as="h2">{t('details:headings.sign_language')}</H>
+            <em>(images coming soon)</em>
+            <p>{data.sign}</p>
           </>
         )}
       </Wrapper>

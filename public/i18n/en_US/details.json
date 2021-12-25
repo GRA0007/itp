@@ -10,7 +10,9 @@
     "your_notes": "Your Notes",
     "words_in_this_glyph": "Words In This Glyph",
     "meaning": "Meaning",
-    "other_styles": "Other Styles"
+    "other_styles": "Other Styles",
+    "synonyms": "Synonyms",
+    "antonyms": "Antonyms"
   },
   "actions": {
     "see_all": "See all",

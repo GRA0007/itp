@@ -1,0 +1,26 @@
+{
+  "headings": {
+    "ipa": "nimi kalama (IPA)",
+    "definition": "kon",
+    "examples": "kepeken",
+    "glyphs": "sitelen pona",
+    "etymology": "nimi tan",
+    "sign_language": "toki pona luka",
+    "your_learning_progress": "sina kama sona",
+    "your_notes": "sina lipu",
+    "words_in_this_glyph": "nimi insa sitelen pona",
+    "meaning": "kon",
+    "other_styles": "ale sitelen",
+    "synonyms": "sama nimi",
+    "antonyms": "ante nimi"
+  },
+  "actions": {
+    "see_all": "ale",
+    "visit_page": "tawa e lipu pi {{name}}"
+  },
+  "login_cta": {
+    "heading": "sina wile kama sona toki pona?",
+    "content": "sina kama sona pi toki pona kepeken ilo toki pona",
+    "action": "open kama sona!"
+  }
+}

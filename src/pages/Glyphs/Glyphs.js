@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { has, compare } from 'utils'
+import { has, compare, sortCompare } from 'utils'
 import { useUserStore } from 'stores'
 
 import {
@@ -59,7 +59,6 @@ const Glyphs = () => {
               id="show-compound"
               value={options.showCompoundGlyphs}
               onChange={value => setOption({ showCompoundGlyphs: value }, 'glyphsPrefs')}
-              disabled
             />
             <SwitchField
               label={t('glyphs:options.showNonEssentialGlyphs')}
@@ -75,11 +74,15 @@ const Glyphs = () => {
       <GlyphWrapper>
         {useMemo(() =>
           Array.isArray(list) && list.filter(d => {
+            if (!options.showCompoundGlyphs && d.tags.includes('compound')) return false
             if (!q || q === '') return true
-            if (list.some(l => compare(l.glyph, q))) {
-              return compare(d.glyph, q)
-            }
             return has(d.glyph, q)
+          }).sort((a, b) => {
+            if (list.some(l => compare(l.glyph, q))) {
+              if (compare(a.glyph, q)) return -1
+              if (compare(b.glyph, q)) return 1
+            }
+            return sortCompare(a.glyph, b.glyph)
           }).map(d =>
             <Glyph
               key={d}

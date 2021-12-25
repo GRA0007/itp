@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { has, compare } from 'utils'
+import { has, compare, sortCompare } from 'utils'
 import { useUserStore } from 'stores'
 
 import {
@@ -64,10 +64,13 @@ const Dictionary = () => {
         {useMemo(() =>
           Array.isArray(list) && list.filter(d => {
             if (!q || q === '') return true
-            if (list.some(l => compare(l.word, q))) {
-              return compare(d.word, q)
-            }
             return has(d.word, q) || d.definitions.some(def => has(def.definition, q))
+          }).sort((a, b) => {
+            if (list.some(l => compare(l.word, q))) {
+              if (compare(a.word, q)) return -1
+              if (compare(b.word, q)) return 1
+            }
+            return sortCompare(a.word, b.word)
           }).map(d =>
             <Definition
               key={d.word}

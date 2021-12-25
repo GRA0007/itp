@@ -25,6 +25,7 @@
         ]
       }],
       "etymology": "Onomatopoeic",
+      "sign": "flat hand at side of chin, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -52,6 +53,7 @@
         "word": "hagedis",
         "translation": "lizard"
       },
+      "sign": "2 hand at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -111,7 +113,8 @@
         "word": "არა (ara)",
         "translation": "no"
       },
-      "antonyms": ["ale"],
+      "antonyms": ["ale", "ali"],
+      "sign": "flat hand at left shoulder, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -151,6 +154,8 @@
         "word": "a la chasse",
         "translation": "hunting"
       },
+      "synonyms": ["lukin", "oko"],
+      "sign": "1 hand at left shoulder, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -202,6 +207,7 @@
         "translation": "all"
       },
       "antonyms": ["ala"],
+      "sign": "wiggling hand in front of chest, palm facing forward (both hands)",
       "tags": ["pu"]
     },
     {
@@ -254,6 +260,7 @@
         "translation": "below"
       },
       "antonyms": ["sewi"],
+      "sign": "bent hand in front of chest, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -290,6 +297,7 @@
         "translation": "other, different"
       },
       "antonyms": ["sama"],
+      "sign": "bent hand on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -310,6 +318,7 @@
         "word": "ან",
         "translation": "or"
       },
+      "sign": "L hand in front of chest, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -367,6 +376,7 @@
         "word": "houden",
         "translation": "to keep"
       },
+      "sign": "L hand at left shoulder, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -376,6 +386,7 @@
         "category": "particle",
         "definition": "(before the direct object)"
       }],
+      "sign": "flat hand in front of chest, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -390,6 +401,7 @@
         "word": "en",
         "translation": "and"
       },
+      "sign": "L hand on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -414,6 +426,7 @@
         "word": "échange",
         "translation": "exchange"
       },
+      "sign": "bent hand in front of chest, palm facing up (both hands)",
       "tags": ["pu"]
     },
     {
@@ -431,6 +444,7 @@
         "word": "io",
         "translation": "something"
       },
+      "sign": "thumb-fist in front of chest, palm facing down, thumb pointing left",
       "tags": ["pu"]
     },
     {
@@ -471,6 +485,7 @@
         "translation": "bad"
       },
       "antonyms": ["pona"],
+      "sign": "thumb-fist in front of chest, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -488,6 +503,7 @@
         "word": "ilo",
         "translation": "tool"
       },
+      "sign": "thumb-fist on top of left fist, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -519,6 +535,7 @@
           "word": "inside"
         }
       ],
+      "sign": "L hand on stomach, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -555,6 +572,7 @@
         "language": "English",
         "word": "yucky"
       },
+      "sign": "thumb-fist at side of chin, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -582,6 +600,7 @@
         "word": "人 (jan)",
         "translation": "person"
       },
+      "sign": "2 hand at left shoulder, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -595,6 +614,7 @@
         "language": "English",
         "word": "yellow"
       },
+      "sign": "F hand on stomach, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -612,6 +632,7 @@
         "word": "有 (yǒu)",
         "translation": "to have"
       },
+      "sign": "bent hand on top of left fist, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -629,6 +650,7 @@
         "word": "kala",
         "translation": "fish"
       },
+      "sign": "flat hand at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -656,6 +678,7 @@
         "word": "galama",
         "translation": "fuss, noise"
       },
+      "sign": "wiggling hand at side of chin, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -700,6 +723,7 @@
         }
       ],
       "antonyms": ["tawa"],
+      "sign": "bent hand in front of chest, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -720,6 +744,7 @@
         "word": "kasvi",
         "translation": "plant"
       },
+      "sign": "F hand on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -765,6 +790,7 @@
           "word": "can"
         }
       ],
+      "sign": "thumb-fist at left shoulder, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -785,6 +811,7 @@
         "word": "gebruiken",
         "translation": "to use"
       },
+      "sign": "L hand on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -804,7 +831,7 @@
         "word": "ხილი (xili)",
         "translation": "fruit"
       },
-      "synonyms": ["soko"],
+      "sign": "thumb-fist at side of chin, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -841,6 +868,7 @@
         "word": "kiven",
         "translation": "stone"
       },
+      "sign": "thumb-fist on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -855,6 +883,7 @@
         "word": "膏 (gou)",
         "translation": "cream, paste"
       },
+      "sign": "bent hand on stomach, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -883,6 +912,7 @@
         "word": "空氣 (kōngqì)",
         "translation": "air"
       },
+      "sign": "wiggling hand in front of chest, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -910,6 +940,7 @@
         "word": "couleur",
         "translation": "color"
       },
+      "sign": "F hand in front of chest, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -939,6 +970,7 @@
           "word": "group"
         }
       ],
+      "sign": "2 hand at left shoulder, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -963,6 +995,7 @@
         "word": "écouter",
         "translation": "to listen"
       },
+      "sign": "thumb-fist at side of forehead, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -972,6 +1005,7 @@
         "category": "particle",
         "definition": "(between the context phrase and the main sentence)"
       }],
+      "sign": "bent hand in front of chest, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -996,6 +1030,7 @@
         "word": "slapen",
         "translation": "to sleep"
       },
+      "sign": "flat hand at side of forehead, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1013,6 +1048,7 @@
         "word": "glas",
         "translation": "blue"
       },
+      "sign": "F hand at left elbow, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1047,6 +1083,7 @@
         "word": "glava",
         "translation": "head"
       },
+      "sign": "flat hand at side of forehead, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -1065,6 +1102,7 @@
         "word": "linge",
         "translation": "clothing"
       },
+      "sign": "bent hand at left shoulder, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1093,6 +1131,7 @@
         "translation": "cold"
       },
       "antonyms": ["seli"],
+      "sign": "wiggling hand at left elbow, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1107,6 +1146,7 @@
         "word": "li",
         "translation": "he"
       },
+      "sign": "flat hand in front of chest, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1135,6 +1175,7 @@
         "translation": "small"
       },
       "antonyms": ["suli"],
+      "sign": "2 hand at side of chin, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -1160,6 +1201,7 @@
         "word": "linja",
         "translation": "line"
       },
+      "sign": "1 hand at side of forehead, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1179,6 +1221,7 @@
         "word": "lippu",
         "translation": "flag, ticket"
       },
+      "sign": "flat hand on top of left fist, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -1193,6 +1236,7 @@
         "word": "rooie",
         "translation": "red"
       },
+      "sign": "F hand at side of chin, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1241,6 +1285,7 @@
         "translation": "at, in, on"
       },
       "antonyms": ["ala"],
+      "sign": "1 hand on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1261,6 +1306,7 @@
         "word": "ruka",
         "translation": "hand, arm"
       },
+      "sign": "flat hand in front of chest, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -1294,6 +1340,7 @@
         "translation": "to see, look at"
       },
       "synonyms": ["alasa"],
+      "sign": "2 hand in front of chest, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1313,6 +1360,7 @@
         "translation": "loop, circuit"
       },
       "antonyms": ["nena"],
+      "sign": "O hand in front of chest, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1332,6 +1380,7 @@
         "word": "maa",
         "translation": "earth, land"
       },
+      "sign": "flat hand in front of chest, palm facing down (both hands)",
       "tags": ["pu"]
     },
     {
@@ -1363,6 +1412,7 @@
         "word": "მამა (mama)",
         "translation": "father"
       },
+      "sign": "2 hand on stomach, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1387,6 +1437,7 @@
           "word": "money"
         }
       ],
+      "sign": "thumb-fist at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1410,6 +1461,7 @@
         "word": "meri",
         "translation": "woman, wife"
       },
+      "sign": "2 hand on stomach, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1434,6 +1486,7 @@
           "word": "me"
         }
       ],
+      "sign": "thumb-fist in front of chest, palm facing down, thumb pointing back",
       "tags": ["pu"]
     },
     {
@@ -1460,6 +1513,7 @@
         "word": "mies",
         "translation": "man"
       },
+      "sign": "2 hand on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1502,6 +1556,7 @@
         "word": "もぐもぐ (mogu-mogu)",
         "translation": "munching"
       },
+      "sign": "O hand at side of chin, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1533,6 +1588,7 @@
         "word": "mourir",
         "translation": "to die"
       },
+      "sign": "L hand at side of forehead, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1556,6 +1612,7 @@
         "word": "mon tchu",
         "translation": "my butt"
       },
+      "sign": "L hand in front of chest, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -1566,6 +1623,7 @@
         "definition": "(animal noise or communication)"
       }],
       "etymology": "Onomatopoeic (cow or cat)",
+      "sign": "wiggling hand at side of chin, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1593,6 +1651,7 @@
         "language": "English",
         "word": "moon"
       },
+      "sign": "O hand at side of forehead, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1631,6 +1690,7 @@
         "word": "amuzi",
         "translation": "to have fun"
       },
+      "sign": "wiggling hand at side of forehead, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1658,6 +1718,7 @@
         "word": "multe",
         "translation": "many, a lot"
       },
+      "sign": "flat hand in front of chest, palm facing forward (both hands)",
       "tags": ["pu"]
     },
     {
@@ -1694,6 +1755,7 @@
           "word": "number"
         }
       ],
+      "sign": "2 hand in front of chest, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1718,6 +1780,7 @@
         "word": "nasau",
         "translation": "stupid"
       },
+      "sign": "thumb-fist at side of forehead, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -1736,6 +1799,7 @@
         "word": "način",
         "translation": "way, method"
       },
+      "sign": "flat hand in front of chest, palm facing left (both hands)",
       "tags": ["pu"]
     },
     {
@@ -1756,6 +1820,7 @@
         "translation": "nose"
       },
       "antonyms": ["lupa"],
+      "sign": "bent hand on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1776,6 +1841,7 @@
         "word": "呢 (ne, ni, nei)",
         "translation": "this"
       },
+      "sign": "L hand at side of chin, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1799,6 +1865,7 @@
         "word": "nimi",
         "translation": "name"
       },
+      "sign": "nothing under left slanted forearm",
       "tags": ["pu"]
     },
     {
@@ -1816,6 +1883,7 @@
         "word": "noga",
         "translation": "foot, leg"
       },
+      "sign": "flat hand in front of chest, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1845,6 +1913,7 @@
           "word": "oh"
         }
       ],
+      "sign": "wiggling hand in front of chest, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1865,6 +1934,7 @@
         "word": "volim",
         "translation": "I love, I like"
       },
+      "sign": "wiggling hand on stomach, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -1885,6 +1955,7 @@
         "word": "ona",
         "translation": "she"
       },
+      "sign": "1 hand in front of chest, index finger pointing left",
       "tags": ["pu"]
     },
     {
@@ -1902,6 +1973,7 @@
         "language": "English",
         "word": "open"
       },
+      "sign": "O hand at left shoulder, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -1945,6 +2017,7 @@
           "word": "bugger up"
         }
       ],
+      "sign": "thumb-fist on top of left fist, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -1978,6 +2051,7 @@
         "word": "fari",
         "translation": "to do, make"
       },
+      "sign": "thumb-fist on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -1995,6 +2069,7 @@
         "word": "pȁlica",
         "translation": "rod, cane"
       },
+      "sign": "O hand on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -2040,6 +2115,7 @@
           "notes": "bread"
         }
       ],
+      "sign": "F hand at side of chin, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2064,6 +2140,7 @@
         "word": "panna",
         "translation": "put, set, place"
       },
+      "sign": "wiggling hand in front of chest, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -2084,6 +2161,7 @@
           "word": "belong"
         }
       ],
+      "sign": "O hand in front of chest, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -2116,6 +2194,7 @@
           "word": "feeling"
         }
       ],
+      "sign": "F hand on stomach, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2146,6 +2225,7 @@
         "word": "pimeä",
         "translation": "dark"
       },
+      "sign": "F hand at left shoulder, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -2195,6 +2275,7 @@
           "word": "finish"
         }
       ],
+      "sign": "O hand at left shoulder, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -2209,6 +2290,7 @@
         "word": "bibitte",
         "translation": "bug"
       },
+      "sign": "1 hand at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2235,6 +2317,7 @@
         "word": "boka",
         "translation": "side, flank"
       },
+      "sign": "L hand at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2258,6 +2341,7 @@
           "word": "box"
         }
       ],
+      "sign": "O hand in front of chest, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -2303,6 +2387,7 @@
         "translation": "good"
       },
       "antonyms": ["ike"],
+      "sign": "thumb-fist in front of chest, palm facing left, thumb pointing up",
       "tags": ["pu"]
     },
     {
@@ -2332,6 +2417,7 @@
         "language": "English",
         "word": "book"
       },
+      "sign": "wiggling hand on top of left fist, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -2371,6 +2457,7 @@
         }
       ],
       "antonyms": ["ante"],
+      "sign": "thumb-fist in front of chest, palm facing down (both hands)",
       "tags": ["pu"]
     },
     {
@@ -2408,6 +2495,7 @@
         "translation": "hot"
       },
       "antonyms": ["lete"],
+      "sign": "wiggling hand at left shoulder, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -2427,6 +2515,7 @@
         "word": "ŝelo",
         "translation": "skin"
       },
+      "sign": "F hand at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2451,6 +2540,7 @@
         "word": "什麼 (shénme)",
         "translation": "what"
       },
+      "sign": "flat hand in front of chest, palm facing up",
       "tags": ["pu"]
     },
     {
@@ -2481,6 +2571,7 @@
         "translation": "upwards"
       },
       "antonyms": ["anpa"],
+      "sign": "1 hand in front of chest, palm facing left, index finger pointing up",
       "tags": ["pu"]
     },
     {
@@ -2499,6 +2590,7 @@
         "word": "tijȇlo",
         "translation": "body"
       },
+      "sign": "flat hand on stomach, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2527,6 +2619,7 @@
         "language": "English",
         "word": "circle"
       },
+      "sign": "O hand on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -2550,6 +2643,7 @@
         "word": "新 (xīn)",
         "translation": "new, fresh"
       },
+      "sign": "wiggling hand on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -2570,6 +2664,7 @@
         "word": "sinä",
         "translation": "you"
       },
+      "sign": "1 hand in front of chest, index finger pointing forward",
       "tags": ["pu"]
     },
     {
@@ -2595,6 +2690,7 @@
         "word": "前邊 (cin, bin)",
         "translation": "in front"
       },
+      "sign": "L hand in front of chest, palm facing back (both hands)",
       "tags": ["pu"]
     },
     {
@@ -2622,6 +2718,7 @@
         "word": "schilderen",
         "translation": "to paint"
       },
+      "sign": "F hand in front of chest, palm facing left (both hands)",
       "tags": ["pu"]
     },
     {
@@ -2653,6 +2750,7 @@
         "word": "ცოდნა (codna)",
         "translation": "knowledge"
       },
+      "sign": "bent hand at side of forehead, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -2672,6 +2770,7 @@
         "word": "ცხოველი (cxoveli)",
         "translation": "animal"
       },
+      "sign": "flat hand at left elbow, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -2701,6 +2800,7 @@
         "word": "suuri",
         "translation": "big"
       },
+      "sign": "2 hand at side of forehead, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -2720,6 +2820,7 @@
         "word": "suno",
         "translation": "sun"
       },
+      "sign": "bent hand at side of forehead, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -2748,6 +2849,7 @@
           "translation": "surface"
         }
       ],
+      "sign": "flat hand in front of chest, palm facing up (both hands)",
       "tags": ["pu"]
     },
     {
@@ -2782,6 +2884,7 @@
           "word": "sweet"
         }
       ],
+      "sign": "2 hand at side of chin, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -2805,6 +2908,7 @@
         "word": "從 (cung)",
         "translation": "from"
       },
+      "sign": "bent hand at left elbow, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -2831,6 +2935,7 @@
           "word": "that's all"
         }
       ],
+      "sign": "L hand in front of chest, palm facing down (both hands)",
       "tags": ["pu"]
     },
     {
@@ -2869,6 +2974,7 @@
         "word": "towards"
       },
       "antonyms": ["kama"],
+      "sign": "bent hand in front of chest, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -2899,6 +3005,7 @@
         "word": "de l'eau",
         "translation": "some water"
       },
+      "sign": "wiggling hand in front of chest, palm facing down (both hands)",
       "tags": ["pu"]
     },
     {
@@ -2918,6 +3025,7 @@
         "word": "tempo",
         "translation": "time"
       },
+      "sign": "F hand on top of left fist, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -2955,6 +3063,7 @@
           "word": "talk"
         }
       ],
+      "sign": "bent hand at side of chin, palm facing left",
       "tags": ["pu"]
     },
     {
@@ -2979,6 +3088,7 @@
         "word": "domo",
         "translation": "house"
       },
+      "sign": "bent hand in front of chest, palm facing left (both hands)",
       "tags": ["pu"]
     },
     {
@@ -3012,6 +3122,7 @@
           "translation": "two"
         }
       ],
+      "sign": "2 hand in front of chest, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -3037,6 +3148,7 @@
           "definition": "erotic, sexual"
         }
       ],
+      "sign": "2 hand on top of left fist, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -3061,6 +3173,7 @@
         "word": "ústa",
         "translation": "mouth"
       },
+      "sign": "1 hand at side of chin, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -3091,6 +3204,7 @@
         "word": "ùdarati",
         "translation": "to hit, strike"
       },
+      "sign": "thumb-fist at left shoulder, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -3111,6 +3225,7 @@
         "word": "valkoinen",
         "translation": "white"
       },
+      "sign": "F hand at side of forehead, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -3144,6 +3259,7 @@
         "language": "English",
         "word": "one"
       },
+      "sign": "1 hand in front of chest, palm facing forward, index finger pointing up",
       "tags": ["pu"]
     },
     {
@@ -3162,6 +3278,7 @@
         "word": "oiseau",
         "translation": "bird"
       },
+      "sign": "O hand at side of chin, palm facing forward",
       "tags": ["pu"]
     },
     {
@@ -3195,6 +3312,7 @@
         "word": "vahva",
         "translation": "strong"
       },
+      "sign": "thumb-fist on stomach, palm facing back",
       "tags": ["pu"]
     },
     {
@@ -3232,6 +3350,7 @@
           "word": "away"
         }
       ],
+      "sign": "O hand at left elbow, palm facing down",
       "tags": ["pu"]
     },
     {
@@ -3263,6 +3382,7 @@
         "word": "willen",
         "translation": "to want"
       },
+      "sign": "O hand on stomach, palm facing up",
       "tags": ["pu"]
     }
   ]

@@ -78,3 +78,10 @@ export const Glyphs = styled.div`
   gap: 1em .8em;
   margin: 1em 0;
 `
+
+export const Buttons = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8em .4em;
+  margin: 1em 0;
+`
