@@ -59,6 +59,7 @@ const Glyphs = () => {
               id="show-compound"
               value={options.showCompoundGlyphs}
               onChange={value => setOption({ showCompoundGlyphs: value }, 'glyphsPrefs')}
+              disabled
             />
             <SwitchField
               label={t('glyphs:options.showNonEssentialGlyphs')}
@@ -85,7 +86,7 @@ const Glyphs = () => {
             return sortCompare(a.glyph, b.glyph)
           }).map(d =>
             <Glyph
-              key={d}
+              key={d.glyph}
               search={q}
               showLabel={options.showLabels}
               {...d}

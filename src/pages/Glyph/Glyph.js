@@ -46,7 +46,7 @@ const Glyph = () => {
 
         <H as="h2">{t('details:headings.words_in_this_glyph')}</H>
         <Buttons>
-          {(data.words ?? Array.isArray(data.glyph) ? data.glyph : [data.glyph])?.map(word => (
+          {(data.words ?? (Array.isArray(data.glyph) ? data.glyph : [data.glyph]))?.map(word => (
             <Button
               key={word}
               secondary
@@ -66,6 +66,7 @@ const Glyph = () => {
 
         <Hr />
         <H as="h2">{t('details:headings.other_styles')}</H>
+        <p>{t('details:content.other_styles')}</p>
         <Glyphs>
           {useMemo(() => Object.keys(fontList).map(font => (
             <GlyphButton

@@ -12,15 +12,16 @@
     "meaning": "Meaning",
     "other_styles": "Other Styles",
     "synonyms": "Synonyms",
-    "antonyms": "Antonyms"
+    "antonyms": "Antonyms",
+    "login_cta": "Want To Learn toki pona?"
+  },
+  "content": {
+    "login_cta": "You can learn the words and glyphs for free on ilo toki pona",
+    "other_styles": "Click on a style to visit it's page"
   },
   "actions": {
     "see_all": "See all",
-    "visit_page": "Visit the page for {{name}}"
-  },
-  "login_cta": {
-    "heading": "Want To Learn toki pona?",
-    "content": "You can learn the words and glyphs for free on ilo toki pona",
-    "action": "Start learning!"
+    "visit_page": "Visit the page for {{name}}",
+    "login_cta": "Start learning!"
   }
 }
