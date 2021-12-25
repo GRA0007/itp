@@ -1,33 +1,22 @@
-import { useEffect, useState, useRef } from 'react'
+import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { KalamaIcon } from 'icons'
 
 import { Wrapper } from './listenButtonStyle'
 
+import sounds from 'res/sounds'
+
 const ListenButton = ({ sound }) => {
   const { t } = useTranslation()
-  const [file, setFile] = useState()
   const audio = useRef()
 
-  useEffect(() => {
-    if (!sound) return
-    const fileName = Array.isArray(sound) ? sound[0] : sound
-    const path = `/sounds/${fileName}.mp3`
-    // Check if sound file exists
-    fetch(path, { method: 'HEAD' }).then(res => {
-      if (res.ok) {
-        setFile(path)
-      }
-    })
-  }, [sound])
-
-  return file ? (
+  return Object.keys(sounds).includes(sound) ? (
     <Wrapper
       title={t('controls.listen')}
       onClick={() => {
         if (!audio.current) {
-          audio.current = new Audio(file)
+          audio.current = new Audio(`/sounds/${sounds[sound]}.mp3`)
         }
         audio.current.currentTime = 0
         audio.current.play()
