@@ -1,4 +1,8 @@
 {
+  "options": {
+    "showExamples": "lukin kepeken",
+    "showNonEssentialWords": "lukin ante nimi (tenpo kama)"
+  },
   "definition": {
     "info": "sona"
   }

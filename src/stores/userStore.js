@@ -1,10 +1,11 @@
 import create from 'zustand'
+import { persist } from 'zustand/middleware'
 import produce from 'immer'
 
-const useUserStore = create(set => ({
+const useUserStore = create(persist(set => ({
   preferences: {
     theme: 'system',
-    language: 'en',
+    language: 'en_US',
   },
   dictionaryPrefs: {
     showExamples: true,
@@ -15,7 +16,7 @@ const useUserStore = create(set => ({
     showCompoundGlyphs: false,
     showNonEssentialGlyphs: false,
   },
-  words: {
+  /*words: {
     akesi: {
       notes: 'akesi linja = danger noodle',
       learn: [
@@ -46,7 +47,7 @@ const useUserStore = create(set => ({
     akesi: {
       notes: 'buggo',
     },
-  },
+  },*/
 
   setPreference: (pref, category = 'preferences') => set(state => ({
     [category]: {
@@ -76,6 +77,8 @@ const useUserStore = create(set => ({
       }
     }
   })),
+}), {
+  name: 'itp-userdata'
 }))
 
 export default useUserStore

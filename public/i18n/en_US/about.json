@@ -1,3 +1,27 @@
 {
-  "title": "About"
+  "title": "About",
+  "content": [
+    "Hi! I'm [jan Benji](https://bengrant.dev) and I created ilo toki pona as a side project to help me learn toki pona.",
+    "# What is toki pona?",
+    "[toki pona](https://tokipona.org) is a minimalistic language created by Sonja Lang (jan Sonja). It has just around 120 words, and is designed to help simplify your thinking. It also means it's really easy to learn!",
+    "# Why another dictionary?",
+    "You are correct, you don't have to look far to find many online toki pona dictionaries. However, this will be more than just that.",
+    "I plan to include information here from many different sources, including sitelen pona (the glyph writing system), and even [sitelen sitelen](https://commons.wikimedia.org/wiki/File:Sitelen_sitelen_contract.jpg) eventually. I will also provide a service that makes it easy to memorise all the words and glyphs in toki pona, using spaced repetition.",
+    "ilo toki pona is a large project that I want to build and maintain, and it's also a community project. I want your input on the content, so if you see something that could be improved, [let me know](https://github.com/GRA0007/itp/issues/new/choose)!",
+    "ilo toki pona is licensed under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/), with content from the language of toki pona created by Sonja Lang.",
+    "# How can I help?",
+    "If you speak a language other than English, and you want to help translate ilo toki pona, [contact me](mailto:ben@bengrant.dev?subject=itp%20translator)!",
+    "If you are competent in toki pona, and you want to help with examples for the dictionary, or if you spot any issues or areas for improvement, [create a ticket](https://github.com/GRA0007/itp/issues/new/choose) on the GitHub repository.",
+    "If you are a developer, you can check out the [GitHub repository](https://github.com/GRA0007/itp) and contribute directly.",
+    "If toki pona makes you happy, the best way to show your gratitude is to buy jan Sonja's books, which you can find on the [official toki pona website](https://tokipona.org). If you would like to support me (jan Benji) for creating ilo toki pona specifically, I have a [donation link](https://www.paypal.com/donate?business=N89X6YXRT5HKW&item_name=ilo+toki+pona&currency_code=AUD)."
+  ],
+  "attributions": [
+    "Attributions",
+    "Thanks to all the resources below that have contributed to the data available on ilo toki pona. If you believe any of these resources are being used in violation of their original terms, please contact me."
+  ],
+  "info": "Info",
+  "fonts": "Fonts",
+  "contributors": [
+    "Contributors"
+  ]
 }

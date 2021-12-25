@@ -1,0 +1,7 @@
+{
+  "options": {
+    "showLabels": "lukin nimi",
+    "showCompoundGlyphs": "lukin sitelen pona tu (tenpo kama)",
+    "showNonEssentialGlyphs": "lukin ante sitelen pona (tenpo kama)"
+  }
+}
