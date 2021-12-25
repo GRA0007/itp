@@ -24,22 +24,6 @@ export const Word = styled.h2`
   margin: 0;
 `
 
-export const ListenButton = styled.button`
-  margin: 0;
-  color: inherit;
-  font: inherit;
-  padding: 0;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  color: ${props => props.theme.secondary};
-  height: 1.4em;
-  width: 1.4em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
-
 export const Category = styled.h3`
   font-weight: 700;
   font-style: italic;

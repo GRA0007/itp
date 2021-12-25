@@ -20,23 +20,6 @@ export const IPA = styled.span`
   color: ${props => props.theme.strongGray};
 `
 
-export const ListenButton = styled.button`
-  margin: 0;
-  color: inherit;
-  font: inherit;
-  padding: 0;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  color: ${props => props.theme.secondary};
-  height: 1.4em;
-  width: 1.4em;
-  display: flex;
-  font-size: .9em;
-  align-items: center;
-  justify-content: center;
-`
-
 export const Category = styled.h3`
   font-weight: 700;
   font-style: italic;
@@ -74,7 +57,7 @@ export const Etymology = styled.div`
 
 export const Glyphs = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
   gap: 1em .8em;
   margin: 1em 0;
 `
@@ -82,6 +65,6 @@ export const Glyphs = styled.div`
 export const Buttons = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: .8em .4em;
+  gap: 1em .8em;
   margin: 1em 0;
 `

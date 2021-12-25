@@ -5,8 +5,6 @@ import { Link, useParams } from 'react-router-dom'
 import { compare } from 'utils'
 import fontList from 'res/fonts'
 
-import { KalamaIcon } from 'icons'
-
 import {
   Heading as H,
   Main,
@@ -14,6 +12,7 @@ import {
   Divider as Hr,
   Button,
   GlyphButton,
+  ListenButton,
 } from 'components'
 
 import {
@@ -22,14 +21,13 @@ import {
   Title,
   Example,
   IPA,
-  ListenButton,
   Etymology,
   Glyphs,
   Buttons,
 } from './wordStyle'
 
 const Word = () => {
-  const { t } = useTranslation(['common', 'dictionary', 'wordList', 'details'])
+  const { t } = useTranslation(['common', 'wordList', 'details'])
   const { word } = useParams()
   const [data, setData] = useState({})
 
@@ -42,21 +40,16 @@ const Word = () => {
     <Main>
       <Wrapper>
         <Title>
-          <h1>{Array.isArray(data.word) ? data.word?.join(t('wordList:wordSeparator')) : data.word}</h1>
-          <ListenButton
-            title={t('dictionary:definition.listen')}
-            onClick={() => console.log('listen')}
-          >
-            <KalamaIcon />
-          </ListenButton>
+          <h1>{Array.isArray(data.word) ? data.word?.join(t('common:wordSeparator')) : data.word}</h1>
+          <ListenButton sound={data.word} />
         </Title>
-        <IPA title={t('details:headings.ipa')}>{Array.isArray(data.ipa) ? data.ipa?.join(t('wordList:wordSeparator')) : data.ipa}</IPA>
+        <IPA title={t('details:headings.ipa')}>{Array.isArray(data.ipa) ? data.ipa?.join(t('common:wordSeparator')) : data.ipa}</IPA>
 
         <H as="h2">{t('details:headings.definition')}</H>
         {data.definitions?.map(def => (
           <Fragment key={`${def.category}-${def.definition}`}>
             <Category>{def.category}</Category>
-            <Def>{Array.isArray(def.definition) ? def.definition.join(t('wordList:definitionSeparator')) : def.definition}</Def>
+            <Def>{Array.isArray(def.definition) ? def.definition.join(t('common:definitionSeparator')) : def.definition}</Def>
           </Fragment>
         ))}
 
@@ -82,7 +75,7 @@ const Word = () => {
           <Button secondary as={Link} to={`/sitelenpona/${Array.isArray(data.word) ? data.word?.[0] : data.word}`}>{t('details:actions.see_all')}</Button>
         </div>
         <Glyphs>
-          {useMemo(() => Object.keys(fontList).sort(() => .5-Math.random()).filter((_, i) => i < 5).map(font => (
+          {useMemo(() => Object.keys(fontList).sort(() => .5-Math.random()).filter((_, i) => i < 4).map(font => (
             <GlyphButton
               key={font}
               glyph={Array.isArray(data.word) ? data.word?.[0] : data.word}
@@ -112,6 +105,7 @@ const Word = () => {
             <Buttons>
               {data.synonyms?.map(synonym => (
                 <Button
+                  key={synonym}
                   secondary
                   as={Link}
                   to={`/ilonimi/${synonym}`}
@@ -128,6 +122,7 @@ const Word = () => {
             <Buttons>
               {data.antonyms?.map(antonym => (
                 <Button
+                  key={antonym}
                   secondary
                   as={Link}
                   to={`/ilonimi/${antonym}`}

@@ -8,6 +8,7 @@ import { Footer, Navigation } from 'components'
 import Dictionary from './Dictionary/Dictionary'
 import Glyphs from './Glyphs/Glyphs'
 import Word from './Word/Word'
+import Glyph from './Glyph/Glyph'
 
 import About from './About/About'
 import Privacy from './Privacy/Privacy'
@@ -32,6 +33,7 @@ const Pages = () => {
           <Route path="/ilonimi" element={<Navigate to="/" replace={true} />} />
           <Route path="/ilonimi/:word" element={<Word />} />
           <Route path="/sitelenpona" element={<Glyphs />} />
+          <Route path="/sitelenpona/:glyph" element={<Glyph />} />
 
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />

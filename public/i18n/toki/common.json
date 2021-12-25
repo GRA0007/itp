@@ -24,6 +24,7 @@
     "switch": {
       "on": "lon",
       "off": "ala"
-    }
+    },
+    "listen": "kalama"
   }
 }

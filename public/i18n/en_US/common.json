@@ -25,6 +25,9 @@
     "switch": {
       "on": "On",
       "off": "Off"
-    }
-  }
+    },
+    "listen": "Listen"
+  },
+  "wordSeparator": ", ",
+  "definitionSeparator": "; "
 }

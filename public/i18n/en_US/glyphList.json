@@ -1,5 +1,4 @@
 {
-  "definitionSeparator": ", ",
   "list": [
     {
       "glyph": "a",
@@ -484,6 +483,7 @@
 
     {
       "glyph": "toki-pona",
+      "words": ["toki", "pona"],
       "meaning": [
         "good language",
         "simple language",
